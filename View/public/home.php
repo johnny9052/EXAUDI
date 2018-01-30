@@ -6,14 +6,19 @@
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
-            <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+            <h1 class="header center teal-text text-lighten-2">AQUI VA EL ICONO</h1>
+
+
+            <div class="row center">                                                  
+                <div class=" btn-large verdeExaudi botonExaudi">Get Started
+
+                </div>                                   
+            </div>
+
             <div class="row center">
                 <h5 class="header col s12 light">Guiamos a las empresas y patrimonios familiares en la transmisión y sostenibilidad de su legado
                 </h5>
-            </div>
-            <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-            </div>
+            </div>           
             <br><br>
 
         </div>

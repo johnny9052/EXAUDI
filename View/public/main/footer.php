@@ -1,4 +1,4 @@
-<footer class="page-footer teal">
+<footer class="page-footer verdeExaudi" >
     <div class="container">
         <div class="row">
 
@@ -44,7 +44,7 @@
         </div>
         
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright verdeExaudi">
 
     </div>
 </footer>

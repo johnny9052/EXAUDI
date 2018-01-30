@@ -3,4 +3,14 @@
   font-size: 12px;
 }
 
+.verdeExaudi{
+    background-color: #cad223;
+    color: white;
+}
+
+.botonExaudi{    
+    border:2px solid white;
+    border-color: white;
+}
+
 

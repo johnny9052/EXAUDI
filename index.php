@@ -30,7 +30,7 @@
         if (isset($_GET['page'])) {
             include("View/public/" . $_GET['page'] . ".php");
         } else {
-            include("View/public/main/home.php");
+            include("View/public/home.php");
         }
 
 

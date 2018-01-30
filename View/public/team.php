@@ -26,33 +26,198 @@
 <div class="container">
     <div class="section">
 
+        <div class="row">
+            <div class="col s12 m1">
+
+            </div>
+            <div class="col s12 m10">
+                <div class="left">
+                    <h4 class="left">EQUIPO DE TRABAJO</h4>
+                </div>
+            </div>
+            <div class="col s12 m1">
+
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m1">
+
+            </div>
+            <div class="col s12 m10">
+                <div class="left">
+                    <p class="consultantDesc">Somos un grupo de asesores expertos en guiar a las familias empresarias en la preservación de su legado y su patrimonio</p>
+                </div>
+            </div>
+            <div class="col s12 m1">
+
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="icon-block">
+                    <h4 class="center">CONSULTORES</h4>
+                </div>
+            </div>
+        </div>
+        
+
         <!--   Icon Section   -->
         <div class="row">
-            <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-                    <h5 class="center">Speeds up development</h5>
+            <div class="col s12 m1">
 
-                    <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
                 </div>
             </div>
 
-            <div class="col s12 m4">
+            <div class="col s12 m2">
                 <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-                    <h5 class="center">User Experience Focused</h5>
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
 
-                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                    <p class="consultantDesc">CEO - Consultant</p>
                 </div>
             </div>
 
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m1">
+
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m1">
+
+            </div>
+            <div class="col s12 m10">
+                <div class="left">
+                    <p class="consultantDesc">Como consultores nos apoyamos en profesionales de alto perfil como complemento perfecto en la generación de valor para nuestros
+                                                clientes y relacionados.</p>
+                </div>
+            </div>
+            <div class="col s12 m1">
+
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m1">
+
+            </div>
+            <div class="col s12 m6">
+                <div class="icon-block">
+                    <h4 class="center">COLABORADORES</h4>
+                </div>
+            </div>
             <div class="col s12 m4">
                 <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-                    <h5 class="center">Easy to work with</h5>
-
-                    <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                    <h4 class="center">STAFF</h4>
                 </div>
+            </div>
+            
+            <div class="col s12 m1">
+
+            </div>
+        </div>
+        
+          <div class="row">
+            <div class="col s12 m1">
+
+            </div>
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <h6 class="center">GUILLERMO SALAZAR</h6>
+
+                    <p class="consultantDesc">CEO - Consultant</p>
+                </div>
+            </div>
+
+            <div class="col s12 m1">
+
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m10">
+                <div class="left">
+                    <p class="consultantDesc">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS UNIDADES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
+                        <br> 
+                        ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
+                        <br>
+                    </p>
+                    <button> NUESTROS SERVICIOS</button>
+                </div>
+                
             </div>
         </div>
 

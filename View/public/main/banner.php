@@ -5,7 +5,7 @@
         
         <ul class="right hide-on-med-and-down">
             <li><a href="#">Servicios</a></li>
-            <li><a href="#">Equipo</a></li>
+            <li><a href="index.php?page=team">Equipo</a></li>
             <li><a href="#">Noticias</a></li>
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Blog</a></li>

@@ -175,27 +175,32 @@
 </div>
 
 
-<div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">
-    <div class="row verdeExaudi">
-        <div class="col s12 m1">
+<div class="verdeExaudi anchoTotal">
+    <div class="section">
 
-        </div>
-        <div class="col s12 m6">
-            <div style="padding-bottom:50px;" class="left">
-                <p class="verdeExaudi">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
-                    <br> 
-                    ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
-                    <br>
-                </p>
+        <div class="row">
 
-                <div class="col s12 m5" >
-                    <div class=" btn-large verdeExaudi botonExaudi">NUESTROS SERVICIOS 
+            <div class="col s12 m1">
+
+            </div>
+            <div class="col s12 m6">
+                <div style="padding-bottom:50px;" class="left">
+                    <p class="verdeExaudi">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
+                        <br> 
+                        ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
+                        <br>
+                    </p>
+
+                    <div class="col s12 m5" >
+                        <div class=" btn-large verdeExaudi botonExaudi">NUESTROS SERVICIOS 
+                        </div>
+                    </div>    
+                    <div class="col s12 m5">
+                        AQUI VA UNA IMAGEN
                     </div>
-                </div>    
-                <div class="col s12 m5">
-                    AQUI VA UNA IMAGEN
                 </div>
             </div>
         </div>
     </div>
 </div>
+<div class="whiteLineFooter"></div>

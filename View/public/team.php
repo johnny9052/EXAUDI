@@ -1,8 +1,7 @@
 <div class="container">
     <div class="section">
-
         <div class="row">
-            <div class="col s12 m1">
+            <div class="col s12 m1 ">
 
             </div>
             <div class="col s12 m10">
@@ -44,47 +43,47 @@
 
             </div>
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>GUILLERMO SALAZAR</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc"> <br>CEO - Consultant</h8>
                 </div>
             </div>
 
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>PABLO AURE</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc"><br><br>Consultant</h8>
                 </div>
             </div>
 
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>LISA MOREL</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc"><br><br>Consultant</h8>
                 </div>
             </div>
 
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>FERRAN FISAS</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc"><br><br>Consultant</h8>
                 </div>
             </div>
 
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>VANESSA LEAN</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc"><br><br>Consultant</h8>
                 </div>
             </div>
 
@@ -129,77 +128,74 @@
         </div>
 
         <div class="row">
-            <div class="col s12 m1">
+            <div class="col s12 m2">
 
             </div>
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>ALBERT BOSCH</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc">Colaboradores</h8>
                 </div>
             </div>
 
             <div class="col s12 m2">
-                <div class="icon-block">
+                <div class="icon-block titleTeam">
                     <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
+                    <label>DAVID CUADRADO</label>
 
-                    <p class="consultantDesc">CEO - Consultant</p>
-                </div>
-            </div>
-
-            <div class="col s12 m2">
-                <div class="icon-block">
-                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
-
-                    <p class="consultantDesc">CEO - Consultant</p>
-                </div>
-            </div>
-
-            <div class="col s12 m2">
-                <div class="icon-block">
-                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
-
-                    <p class="consultantDesc">CEO - Consultant</p>
-                </div>
-            </div>
-
-            <div class="col s12 m2">
-                <div class="icon-block">
-                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    <h6 class="center">GUILLERMO SALAZAR</h6>
-
-                    <p class="consultantDesc">CEO - Consultant</p>
+                    <h8 class="consultantDesc" > Regional Executive</h8>
                 </div>
             </div>
 
             <div class="col s12 m1">
+            </div>
 
+
+            <div class="col s12 m2">
+                <div class="icon-block titleTeam" >
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <label>SANDRA ALONSO</label>
+
+                    <h8 class="consultantDesc">Colaborador</h8>
+                </div>
+            </div>
+
+            <div class="col s12 m2">
+                <div class="icon-block titleTeam">
+                    <img src="Resources/public/image/team/consultor1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    <label>SISSI GRAESSEL</label>
+
+                    <h8 class="consultantDesc">Colaborador</h8>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 
-<div class="row verdeExaudi">
-    <div class="col s12 m1">
 
-    </div>
-    <div class="col s12 m6">
-        <div class="left">
-            <p class="verdeExaudi">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
-                <br> 
-                ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
-                <br>
-            </p>
+<div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">
+    <div class="row verdeExaudi">
+        <div class="col s12 m1">
 
         </div>
+        <div class="col s12 m6">
+            <div style="padding-bottom:50px;" class="left">
+                <p class="verdeExaudi">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
+                    <br> 
+                    ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
+                    <br>
+                </p>
 
-    </div>
-    <div class=" btn-large verdeExaudi botonExaudi">Get Started
+                <div class="col s12 m5" >
+                    <div class=" btn-large verdeExaudi botonExaudi">NUESTROS SERVICIOS 
+                    </div>
+                </div>    
+                <div class="col s12 m5">
+                    AQUI VA UNA IMAGEN
+                </div>
+            </div>
+        </div>
     </div>
 </div>

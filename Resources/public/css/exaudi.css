@@ -36,3 +36,14 @@
 .centrarVerticalSectionHome{
     padding-top: 150px !important;
 }
+
+.centrarVerticalSectionTeam{
+    padding-top: 150px !important;
+}
+
+.titleTeam{
+    font-size: 15px;
+    text-align: center;
+    font-weight:bold;
+    
+}

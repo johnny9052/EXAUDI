@@ -7,7 +7,7 @@
             <li><a class="colorTextoBanner" href="index.php?page=services">Servicios</a></li>
             <li><a class="colorTextoBanner" href="index.php?page=team">Equipo</a></li>
             <li><a class="colorTextoBanner" href="#">Noticias</a></li>
-            <li><a class="colorTextoBanner" href="#">Contacto</a></li>
+            <li><a class="colorTextoBanner" href="index.php?page=contact">Contacto</a></li>
             <li><a class="colorTextoBanner" href="#">Blog</a></li>
         </ul>
 
@@ -15,7 +15,7 @@
             <li><a class="colorTextoBanner" href="index.php?page=services">Servicios</a></li>
             <li><a class="colorTextoBanner" href="index.php?page=team">Equipo</a></li>
             <li><a class="colorTextoBanner" href="#">Noticias</a></li>
-            <li><a class="colorTextoBanner" href="#">Contacto</a></li>
+            <li><a class="colorTextoBanner" href="index.php?page=contact">Contacto</a></li>
             <li><a class="colorTextoBanner" href="#">Blog</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>

@@ -1,6 +1,6 @@
 .consultantDesc{
-  font-weight: 300;
-  font-size: 12px;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .verdeExaudi{
@@ -32,6 +32,10 @@
     height: 380px;    
 }
 
+.alturaSectionContact{    
+    height: auto;    
+}
+
 
 .centrarVerticalSectionHome{
     padding-top: 150px !important;
@@ -44,7 +48,7 @@
     font-size: 15px;
     text-align: center;
     font-weight:bold;
-    
+
 }
 
 .iconosFooter{
@@ -59,3 +63,19 @@
     background-color: #666666 !important;
 }
 
+.justifyText{
+    text-align: justify !important; 
+}
+
+textarea.materialize-textarea{
+    height: 125px !important;
+}
+
+input{
+    height: 35px !important;
+    margin-bottom: 0px !important;    
+}
+
+.textContact{
+    font-size: 12px !important; 
+}

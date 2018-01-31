@@ -28,7 +28,7 @@
                                 <li class="iconosFooter mdi mdi-twitter">
                                     <a class="white-text" href="" target="_blank"></a>
                                 </li>
-                                <li class="iconosFooter mdi mdi-instagram">
+                                <li class="iconosFooter mdi mdi-linkedin">
                                     <a class="white-text" href="" target="_blank"></a>
                                 </li>
 

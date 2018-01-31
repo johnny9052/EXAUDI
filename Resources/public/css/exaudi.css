@@ -9,13 +9,30 @@
     font-size: 15px;
 }
 
-.botonExaudi{    
-    border:2px solid white;
-    border-color: white;
+.grisExaudi{
+    background-color: white !important;
+    color: gray !important;
+    font-size: 15px;
 }
 
-.anchoTotal{
-    padding: 0px !important;
+.botonExaudi{    
+    border:2px solid white;    
+}
+
+.botonExaudiGris{    
+    border:2px solid gray;       
+}
+
+
+.anchoTotal{   
     width: 100% !important;
 }
 
+.alturaSectionHome{    
+    height: 380px;    
+}
+
+
+.centrarVerticalSectionHome{
+    padding-top: 150px !important;
+}

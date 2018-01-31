@@ -7,11 +7,11 @@
 
         <!-- CSS  -->
         <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+        <link href="Resources/public/css/fonts.css" rel="stylesheet" type="text/css"/>
         <link href="Resources/public/css/icons/icons.css" rel="stylesheet" type="text/css"/>
         <link href="Resources/public/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="Resources/public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="Resources/public/css/exaudi.css" rel="stylesheet" type="text/css"/>
-        
         <link href="Resources/public/css/icons/MaterialDesign-Webfont-master/css/materialdesignicons.css" rel="stylesheet" type="text/css"/>
 
         <!--  Scripts-->

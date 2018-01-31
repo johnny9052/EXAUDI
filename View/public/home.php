@@ -30,7 +30,7 @@
 
 
 <!--VALORES EXAUDI-->
-<div class="container">
+<div class="verdeExaudi anchoTotal">
     <div class="section">
         <!--   Icon Section   -->
         <div class="row">
@@ -67,7 +67,7 @@
 
 
 
-<div class="container">
+<div class="verdeExaudi anchoTotal">
     <div class="section">
         <!--   Icon Section   -->
         <div class="row">
@@ -104,7 +104,7 @@
 
 
 
-<div class="container">
+<div class="verdeExaudi anchoTotal">
     <div class="section">
         <!--   Icon Section   -->
         <div class="row">

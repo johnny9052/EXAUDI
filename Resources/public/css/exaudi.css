@@ -4,7 +4,7 @@
 }
 
 .verdeExaudi{
-    background-color: #cad223;
+    background-color: #cad223 !important;
     color: white;
 }
 
@@ -13,4 +13,8 @@
     border-color: white;
 }
 
+.anchoTotal{
+    padding: 0px !important;
+    width: 100% !important;
+}
 

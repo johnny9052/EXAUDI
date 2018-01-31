@@ -130,7 +130,7 @@
                     </h5>
 
                     <h5 class="center">
-                        <div class=" btn-large grisExaudi botonExaudiGris">Get Started
+                        <div class=" btn-large grisExaudi botonExaudiGris">NUESTROS SERVICIOS
                         </div>
                     </h5>
                 </div>

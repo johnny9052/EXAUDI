@@ -36,3 +36,16 @@
 .centrarVerticalSectionHome{
     padding-top: 150px !important;
 }
+
+
+.iconosFooter{
+    font-size: 24px !important; 
+}
+
+.colorTextoBanner{
+    color: white !important;
+}
+
+.bannerColor{
+    background-color: #666666 !important;
+}

@@ -16,7 +16,12 @@
 }
 
 .botonExaudi{    
-    border:2px solid white;    
+    border:2px solid white;
+    width:250px;
+    height:40px;
+    text-align: center;
+    vertical-align: central;
+    line-height: 35px;
 }
 
 .botonExaudiGris{    
@@ -62,6 +67,7 @@
 .bannerColor{
     background-color: #666666 !important;
 }
+
 
 .justifyText{
     text-align: justify !important; 

@@ -4420,7 +4420,7 @@ nav .input-field label.active i {
     height: 64px;
   }
 }
-
+/*
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
@@ -4449,6 +4449,54 @@ nav .input-field label.active i {
   font-family: "Roboto";
   src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
   font-weight: 700;
+}*/
+@font-face {
+  font-family: "AktivGrotesk-Regular";
+  src: url("../fonts/exaudi/AktivGrotesk-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "AktivGrotesk-Black";
+  src: url("../fonts/exaudi/AktivGrotesk-Black.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Bold";
+  src: url("../fonts/exaudi/AktivGrotesk-Bold.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Light";
+  src: url("../fonts/exaudi/AktivGrotesk-Light.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Medium";
+  src: url("../fonts/exaudi/AktivGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+.textRegular{
+    font-family: "AktivGrotesk-Regular" !important;
+}
+    
+.textBlack{
+    font-family: "AktivGrotesk-Black" !important;
+}
+
+.textBold{
+    font-family: "AktivGrotesk-Bold" !important;
+}
+
+.textLight{
+    font-family: "AktivGrotesk-Light" !important;
+}
+
+.textMedium{
+    font-family: "AktivGrotesk-Medium" !important;
 }
 
 a {

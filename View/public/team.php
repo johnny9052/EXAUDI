@@ -6,7 +6,7 @@
             </div>
             <div class="col s12 m10">
                 <div class="left">
-                    <h4 class="left">EQUIPO DE TRABAJO</h4>
+                    <h4 class="left textBold">EQUIPO DE TRABAJO</h4>
                 </div>
             </div>
             <div class="col s12 m1">
@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col s12 m12">
                 <div class="icon-block">
-                    <h4 class="center">CONSULTORES</h4>
+                    <h4 class="center textBold">CONSULTORES</h4>
                 </div>
             </div>
         </div>

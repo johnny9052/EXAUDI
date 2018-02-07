@@ -124,7 +124,7 @@
                         </div>
                     </div>    
                     <div class="col s12 m5 textLightGreen">
-                        AQUI VA UNA IMAGEN
+                        <img src="Resources/public/image/new/iconoBotonBlog.png" alt="" class="circle responsive-img" style="width: 50px"> <!-- notice the "circle" class -->
                     </div>
                 </div>
             </div>

@@ -185,7 +185,7 @@
                         </div>
                     </div>    
                     <div class="col s12 m5">
-                        AQUI VA UNA IMAGEN
+                        <img style="width: 60px; margin-left: 15px;" src="Resources/public/image/contact/info.png">
                     </div>                    
                 </div>
             </div>

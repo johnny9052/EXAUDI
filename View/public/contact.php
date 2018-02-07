@@ -1,8 +1,12 @@
 
-<div class="container">
+<div class=" backgroundContacts">
     <div class="section">
         <div class="row">
-            <div class="col s12 left">
+            <div class="col m2 s12">
+                
+            </div>
+            
+            <div class="col m10 s12">
                 <h3><i class="mdi-content-send brown-text"></i></h3>
                 <h4 class="textBoldHomeGray">CONTACTO</h4>                
             </div>
@@ -18,8 +22,11 @@
 
         <div class="row">
 
-            <div class="input-field col s12 m2">
-                aqui va una imagen
+               <div class="input-field col s12 m1">                
+            </div>
+            
+            <div class="input-field col s12 m1">
+                <img style="width: 90px;" src="Resources/public/image/contact/info.png">
             </div>
 
             <div class="input-field col s12 m4 textLightGreen" style="padding-right: 30px;">
@@ -41,7 +48,7 @@
                 <br>
 
                 <div class=" btn-large verdeExaudi botonExaudi textContact textLightGreen">
-                    CONTACTO
+                    ENVIAR
                 </div>
                 
                 <br>

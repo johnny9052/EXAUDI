@@ -2,13 +2,15 @@
     <nav class="white" >
         <div class="nav-wrapper textMediumGray"> 
 
-            <a id="logo-container" href="index.php" class="brand-logo">Logo</a>
+            <a id="logo-container" href="index.php" class="brand-logo">                
+                <img style="width: 200px;" src="Resources/public/image/logo.png">
+            </a>
 
             <ul id="menuContenedor" class="bannerColor right hide-on-med-and-down right">
                 <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=services">Servicios</a></li>
-                <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=team">Equipo</a></li>            
+                <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=team">Equipo</a></li>                            
+                <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=news">Noticias</a></li>          
                 <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=contact">Contacto</a></li>
-                <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=news">Noticias</a></li>            
                 <li class="menuShowHide"><a class="colorTextoBanner" href="#">Blog</a></li>                                         
                 <li><a id="txtMenu" class="colorTextoBannerMenu">Menu</a></li> 
                 <li><a id="txtMenuIcono" class="colorIconoBannerMenu"><i id="btnMenu" class="material-icons">menu</i></a></li>

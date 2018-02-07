@@ -6,16 +6,22 @@
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
-            <h1 class="header center teal-text text-lighten-2">AQUI VA EL ICONO</h1>
+            <div class="row right" style="margin: 0 !important;">
+                <div class="col m12 s12">
+                    <img style="width: 75px;margin-right: 75px;" src="Resources/public/image/home/brujula.png">
+                </div>
+            </div>
 
             <div class="row center">
-                <p class="center light textMedium">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
+                <div class="col m12 s12">
+                    <p class="center light textMediumGray">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
+                </div>
             </div>           
-            <br><br>
+            
 
         </div>
     </div>
-    <div class="parallax"><img src="Resources/public/image/home/tree.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="Resources/public/image/home/way.png" alt="Unsplashed background img 1"></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 
@@ -54,8 +60,8 @@
         </div>
 
     </div>
-    
-    <div class="parallax"><img src="Resources/public/image/home/tree2jpg" alt="Unsplashed background img 1"></div>
+
+    <div class="parallax"><img src="Resources/public/image/home/tree2.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
 
@@ -88,7 +94,7 @@
             <h5 class="center textBoldHome"><br><br><br><br>EMPATÍA</h5>
 
             <div class="row center">
-                
+
                 <p class="center light textMedium">GUIAMOS DESDE LA EXPERIENCIA Y LA PLENA COMPRESIÓN DE LAS DINÁMICAS FAMILIARES, CONECTANDO CON LOS PROYECTOS Y EXPECTATIVAS DEL CLIENTE</p>
             </div>           
             <br><br>
@@ -126,14 +132,10 @@
         <!--   Icon Section   -->
         <div class="row">
             <div class="col s12">
-                <div class="icon-block">                    
-
-
+                <div class="icon-block">                                       
                     <h5 class="center">
-                        AQUI VA LA IMAGEN
-                    </h5>
-
-                    <h5 class="center">
+                        <img style="width: 100px;" src="Resources/public/image/home/fruta.png">
+                        <br>
                         <div class=" btn-large grisExaudi botonExaudiGris">NUESTROS SERVICIOS
                         </div>
                     </h5>

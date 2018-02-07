@@ -196,7 +196,7 @@
                         </div>
                     </div>    
                     <div class="col s12 m5">
-                        AQUI VA UNA IMAGEN
+                        <img src="Resources/public/image/team/iconoBotonTeam.png" alt="iconoBotonTeam" style="width:75px">
                     </div>
                 </div>
             </div>

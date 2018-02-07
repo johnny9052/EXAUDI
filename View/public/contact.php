@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col s12 left">
                 <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Contacto</h4>                
+                <h4 class="textBoldHomeGray">CONTACTO</h4>                
             </div>
         </div>
 

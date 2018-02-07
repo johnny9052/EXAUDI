@@ -9,8 +9,7 @@
             <h1 class="header center teal-text text-lighten-2">AQUI VA EL ICONO</h1>
 
             <div class="row center">
-                <h5 class="header col s12 light">Guiamos a las empresas y patrimonios familiares en la transmisión y sostenibilidad de su legado
-                </h5>
+                <p class="center light textMedium">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
             </div>           
             <br><br>
 
@@ -28,8 +27,8 @@
         <!--   Icon Section   -->
         <div class="row">
             <div class="col m12 s12">
-                <div class="icon-block">                    
-                    <h5 class="center">VALORES DE EXAUDI FAMILY BUSINESS CONSULTING</h5>                   
+                <div class="icon-block" textBold>                    
+                    <h5 class="center textBoldHome" >VALORES DE EXAUDI FAMILY BUSINESS CONSULTING</h5>                   
                 </div>
             </div>    
 
@@ -47,9 +46,9 @@
         <div class="row">
             <div class="col s12">
                 <div class="icon-block">                    
-                    <h5 class="center">Objetividad Profesional</h5>
+                    <h5 class="center textBoldHomeGray">OBJETIVIDAD PROFESIONAL</h5>
 
-                    <p class="center light">Entendemos a la familia como una unidad, donde cada miembro influye en las características que la definen</p>
+                    <p class="center light textMediumGray">ENTENDEMOS A LA FAMILIA COMO UNA UNIDAD, DONDE CADA MIEMBRO INFLUYE EN LAS CARACTERÍSTICAS QUE LA DEFINEN</p>
                 </div>
             </div>         
         </div>
@@ -67,47 +66,25 @@
         <div class="row">
             <div class="col s12">
                 <div class="icon-block">                    
-                    <h5 class="center">Honestidad</h5>
+                    <h5 class="center textBoldHome">HONESTIDAD</h5>
 
-                    <p class="center light">Nuestro cliente es la familia y su patrimonio, les orientamos y diseñamos soluciones adaptadas a sus necesidades reales</p>
+                    <p class="center light textMedium">NUESTRO CLIENTE ES LA FAMILIA Y SU PATRIMONIO, LES ORIENTAMOS Y DISEÑAMOS SOLUCIONES ADAPTADAS A SUS NECESIDADES REALES</p>
                 </div>
             </div>         
         </div>
 
     </div>
 </div>
-
-
-
-
-<div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">
-    <div class="section">
-        <!--   Icon Section   -->
-        <div class="row">
-            <div class="col s12">
-                <div class="icon-block">                    
-                    <h5 class="center">Confidencialidad</h5>
-
-                    <p class="center light">Somos depositarios de la confianza de nuestros clientes. Honramos el voto de confidencialidad con cuidado y espíritu profesional</p>
-                </div>
-            </div>         
-        </div>
-
-    </div>
-</div>
-
-
-
 
 <div id="index-banner" class="parallax-container ">
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
-            <h1 class="header center teal-text text-lighten-2">Empatía</h1>
+            <h5 class="center textBoldHome"><br><br><br><br>EMPATÍA</h5>
 
             <div class="row center">
-                <h5 class="header col s12 light">Guiamos desde la experiencia y la plena compresión de las dinámicas familiares, conectando con los proyectos y expectativas del cliente
-                </h5>
+                
+                <p class="center light textMedium">GUIAMOS DESDE LA EXPERIENCIA Y LA PLENA COMPRESIÓN DE LAS DINÁMICAS FAMILIARES, CONECTANDO CON LOS PROYECTOS Y EXPECTATIVAS DEL CLIENTE</p>
             </div>           
             <br><br>
 
@@ -115,6 +92,28 @@
     </div>
     <div class="parallax"><img src="Resources/public/image/background1.jpg" alt="Unsplashed background img 1"></div>
 </div>
+
+
+<div class="verdeExaudi anchoTotal alturaSectionHome centrarVerticalSectionHome">
+    <div class="section">
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12">
+                <div class="icon-block">                    
+                    <h5 class="center textBoldHome">CONFIDENCIALIDAD</h5>
+
+                    <p class="center light textMedium">SOMOS DEPOSITARIOS DE LA CONFIANZA DE NUESTROS CLIENTES. HONRAMOS EL VOTO DE CONFIDENCIALIDAD CON CUIDADO Y ESPÍRITU PROFESIONAL</p>
+                </div>
+            </div>         
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
 
 
 <div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">

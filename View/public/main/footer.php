@@ -33,7 +33,7 @@
                                 </li>
 
                                 <li style="padding-left: 40px" class="iconosFooter mdi mdi-chevron-up">
-                                    <a class="white-text" href="" target="_blank"></a>
+                                    <a class="white-text textLightGreen" href="" target="_blank"></a>
                                 </li>
                             </div>                                              
 

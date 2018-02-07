@@ -1,6 +1,6 @@
 <div class="navbar-fixed">
     <nav class="white" >
-        <div class="nav-wrapper"> 
+        <div class="nav-wrapper textMediumGray"> 
 
             <a id="logo-container" href="index.php" class="brand-logo">                
                 <img style="width: 200px;" src="Resources/public/image/logo.png">

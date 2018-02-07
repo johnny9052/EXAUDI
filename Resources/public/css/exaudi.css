@@ -1,3 +1,9 @@
+.backgroundContacts{    
+    background-image:url('../image/contact/trees.png') !important;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .consultantDesc{
     font-weight: 300;
     font-size: 12px;

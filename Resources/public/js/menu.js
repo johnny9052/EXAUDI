@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#btnMenu").click(mostrarOcultar);
+    $("#txtMenuIcono").click(mostrarOcultar);
     $("#txtMenu").click(mostrarOcultar);
     
     $(".button-collapse").sideNav();

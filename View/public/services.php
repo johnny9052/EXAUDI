@@ -176,11 +176,11 @@
             </div>
             <div class="col s12 m6">
                 <div style="padding-bottom:50px;" class="left">
-                    <p class="verdeExaudi">CONTÁCTENOS PARA OBTENER MÁS INFORMACIÓN SOBRE NUESTROS SERVICIOS                        
+                    <p class="verdeExaudi textLightGreen">CONTÁCTENOS PARA OBTENER MÁS INFORMACIÓN SOBRE NUESTROS SERVICIOS                        
                     </p>
 
                     <div class="col s12 m5" >
-                        <div class=" btn-large verdeExaudi botonExaudi">
+                        <div class=" btn-large verdeExaudi botonExaudi textLightGreen">
                             CONTACTO
                         </div>
                     </div>    

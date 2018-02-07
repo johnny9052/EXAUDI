@@ -22,7 +22,7 @@
                 aqui va una imagen
             </div>
 
-            <div class="input-field col s12 m4" style="padding-right: 30px;">
+            <div class="input-field col s12 m4 textLightGreen" style="padding-right: 30px;">
                 <h6 class="textContact">NOMBRE</h6>
                 <input class="white black-text" id="txtX" name="X" type="text" value="" autocomplete="off" required>
 
@@ -40,14 +40,14 @@
 
                 <br>
 
-                <div class=" btn-large verdeExaudi botonExaudi textContact">
+                <div class=" btn-large verdeExaudi botonExaudi textContact textLightGreen">
                     CONTACTO
                 </div>
                 
                 <br>
                 <br>
                 
-                <div class="textContact">
+                <div class="textContact textLightGreen">
                     SIGANOS EN NUESTRAS REDES SOCIALES
                 </div>
 
@@ -60,5 +60,5 @@
 </div>
 
 <!--END VALORES EXAUDI-->
-<div class="whiteLineFooter"></div>
+<div class="whiteLineFooter "></div>
 

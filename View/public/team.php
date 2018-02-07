@@ -184,15 +184,15 @@
 
             </div>
             <div class="col s12 m6">
-                <div style="padding-bottom:50px;" class="left">
-                    <p class="verdeExaudi">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
+                <div style="padding-bottom:50px;" class="left textLightGreen">
+                    <p class="verdeExaudi textLightGreen">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
                         <br> 
                         ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
                         <br>
                     </p>
 
-                    <div class="col s12 m5" >
-                        <div class=" btn-large verdeExaudi botonExaudi">NUESTROS SERVICIOS 
+                    <div class="col s12 m5 textLightGreen" >
+                        <div class=" btn-large verdeExaudi botonExaudi textLightGreen">NUESTROS SERVICIOS 
                         </div>
                     </div>    
                     <div class="col s12 m5">

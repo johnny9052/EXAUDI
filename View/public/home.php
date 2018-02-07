@@ -15,7 +15,7 @@
 
         </div>
     </div>
-    <div class="parallax"><img src="Resources/public/image/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="Resources/public/image/home/tree.jpg" alt="Unsplashed background img 1"></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 
@@ -40,7 +40,7 @@
 <!--END VALORES EXAUDI-->
 
 
-<div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">
+<div class="anchoTotal alturaSectionHome centrarVerticalSectionHome parallax-container">
     <div class="section">
         <!--   Icon Section   -->
         <div class="row">
@@ -54,7 +54,12 @@
         </div>
 
     </div>
+    
+    <div class="parallax"><img src="Resources/public/image/home/tree2jpg" alt="Unsplashed background img 1"></div>
 </div>
+
+
+
 
 
 
@@ -90,7 +95,7 @@
 
         </div>
     </div>
-    <div class="parallax"><img src="Resources/public/image/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="Resources/public/image/home/tree.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
 

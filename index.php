@@ -15,9 +15,10 @@
         <link href="Resources/public/css/icons/MaterialDesign-Webfont-master/css/materialdesignicons.css" rel="stylesheet" type="text/css"/>
 
         <!--  Scripts-->
-        <script src="Resources/public/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-        <script src="Resources/public/js/materialize.js"></script>
-        <script src="Resources/public/js/init.js"></script>
+        <script src="Resources/public/js/materialize/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="Resources/public/js/materialize/materialize.js"></script>
+        <script src="Resources/public/js/materialize/init.js"></script>
+        <script src="Resources/public/js/menu.js" type="text/javascript"></script>
     </head>
     <body>
 

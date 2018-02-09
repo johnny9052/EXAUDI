@@ -20,7 +20,7 @@ and open the template in the editor.
 
         <div class="login-box">
             <div class="login-logo">
-                <label>Sistema inicial</label>
+                <label>EXAUDI</label>
             </div>
             <!-- /.login-logo -->
             <div class="login-box-body">
@@ -38,7 +38,7 @@ and open the template in the editor.
                     <div class="row">                        
                         <!-- /.col -->
                         <div class="col-md-12">
-                            <button type="button" class="btn btn-primary btn-block btn-flat" id="btnLoguin" onclick="LogIn();">Ingresar</button>
+                            <button type="button" class="btn btn-primary btn-block btn-flat verdeExaudi" id="btnLoguin" onclick="LogIn();">Ingresar</button>
                         </div>
 
                         <div class="col-md-12">

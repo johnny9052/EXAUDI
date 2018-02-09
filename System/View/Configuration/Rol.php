@@ -31,10 +31,10 @@ and open the template in the editor.
 
         <section class="content">
 
-            <div class="row">        
+            <div class="row">
                 <div class="col-md-12">
                     <!-- general form elements -->
-                    <div class="box box-primary">
+                    <div class="box box-success">
                         <div class="box-header with-border">
                             <h3 class="box-title">Acciones</h3>
                         </div>
@@ -45,7 +45,7 @@ and open the template in the editor.
                                 <div class="form-group">
 
                                     <div class="col-md-2 col-xs-6">
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalNew" onclick="showButton(true);">Nuevo registro</button>                                                                
+                                        <button type="button" class="btn btn-primary verdeExaudi" data-toggle="modal" data-target="#ModalNew" onclick="showButton(true);">Nuevo registro</button>                                                                
                                     </div>
 
                                     <div class="col-md-9  col-xs-6">

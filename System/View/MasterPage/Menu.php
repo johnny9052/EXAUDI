@@ -21,7 +21,7 @@ and open the template in the editor.
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">                    
-                    <img src="Resource/Multimedia/Images/User.png" class="img-circle"/>
+                    <img src="Resource/Multimedia/Images/Logo.png" class="img-circle"/>
                 </div>
                 <div class="pull-left info">                   
                     <p><?php

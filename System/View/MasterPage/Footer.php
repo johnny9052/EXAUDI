@@ -19,7 +19,7 @@ and open the template in the editor.
         </div> 
         <strong>Copyright &copy; <?php
             echo date("Y");
-            ?> Johnny Alexander Salazar Cardona</strong> All rights
+            ?> Johnny Alexander Salazar Cardona - David Alberto Angarita Garcia</strong> All rights
         reserved.
 
         <!-- ***************END FOOTER**************** -->

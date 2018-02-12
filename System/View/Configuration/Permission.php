@@ -19,7 +19,7 @@ and open the template in the editor.
             </h1>
 
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-gear"></i> Configuracion</a></li>
+                <li><a href="#"><i class="fa fa-group"></i> Configuracion</a></li>
                 <li class="active">Permisos</li>
             </ol>
         </section>

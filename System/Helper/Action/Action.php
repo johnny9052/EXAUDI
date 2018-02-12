@@ -28,11 +28,11 @@ function ExecuteAction($action, $obj, $dao) {
             break;
 
         case "list":
-            $dao->ListAll($obj,false);
+            $dao->ListAll($obj, false);
             break;
-        
-          case "listfilter":
-            $dao->ListAll($obj,true);
+
+        case "listfilter":
+            $dao->ListAll($obj, true);
             break;
 
         /* END Transaction CRUD */
@@ -64,4 +64,15 @@ function ExecuteAction($action, $obj, $dao) {
             echo 'No action found';
             break;
     }
+}
+
+
+
+
+function base64_to_jpeg($base64_string, $output_file) {
+    $ifp = fopen($output_file, "wb");
+    $data = explode(',', $base64_string);
+    fwrite($ifp, base64_decode($data[0]));
+    fclose($ifp);
+    return $output_file;
 }

@@ -7,8 +7,16 @@ and open the template in the editor.
 <html>
     <head>
 
-        <title>Sistema prototipo</title>
+        <title>EXAUDI</title>
 
+
+        <!-- DATAPICKER-->
+
+        <!-- bootstrap datepicker -->
+        <link rel="stylesheet" href="Resource/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+
+        <script src="Resource/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+        
 
         <!-- DataTables -->
         <link rel="stylesheet" href="Resource/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">

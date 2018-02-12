@@ -9,18 +9,20 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
 
-        <script defer type="text/javascript" src="Resource/Script/Configuration/User.js"></script>
+        <script defer type="text/javascript" src="Resource/Script/Parameterized/New.js"></script>
+
     </head>
     <body>
 
+
         <section class="content-header">
             <h1>
-                Usuarios                    
+                Noticias                    
             </h1>
 
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-group"></i> Configuracion</a></li>
-                <li class="active">Usuarios</li>
+                <li><a href="#"><i class="fa fa-gear"></i> Parametrizacion</a></li>
+                <li class="active">Noticias</li>
             </ol>
         </section>
 
@@ -29,13 +31,18 @@ and open the template in the editor.
 
         <section class="content">
 
-            <div class="row">        
+            <div class="row">
                 <div class="col-md-12">
                     <!-- general form elements -->
-                    <div class="box box-primary">
+                    <div class="box box-success">
                         <div class="box-header with-border">
                             <h3 class="box-title">Acciones</h3>
                         </div>
+
+
+
+
+
 
                         <!-- BOTON AÑADIR Y PRIMERA BARRA DE CARGA--> 
                         <div class="box-body">
@@ -43,7 +50,7 @@ and open the template in the editor.
                                 <div class="form-group">
 
                                     <div class="col-md-2 col-xs-6">
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalNew" onclick="showButton(true);">Nuevo registro</button>                                                                
+                                        <button type="button" class="btn btn-primary verdeExaudi" data-toggle="modal" data-target="#ModalNew" onclick="showButton(true);">Nuevo registro</button>                                                                
                                     </div>
 
                                     <div class="col-md-9  col-xs-6">
@@ -105,93 +112,60 @@ and open the template in the editor.
 
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="txtFirstName">Primer nombre</label>                                    
-                                    <input id="txtFirstName" name="firstName" class="form-control" type="text" value="" autocomplete="off" required
-                                           placeholder="Primer nombre">
+                                    <label for="txtTitulo">Titulo</label>                                    
+                                    <input id="txtTitulo" name="title" class="form-control" type="text" value="" autocomplete="off" required
+                                           placeholder="Titulo de la noticia">
                                 </div>
                             </div>                       
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="txtName">Segundo nombre</label>                                    
-                                    <input id="txtSecondName" name="secondName" class="form-control" type="text" value="" autocomplete="off"
-                                           placeholder="Segundo nombre">
-                                </div>
-                            </div>     
                         </div>
 
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="txtFirstLastName">Primer apellido</label>                                    
-                                    <input id="txtFirstLastName" name="firstLastName" class="form-control" type="text" value="" autocomplete="off" required
-                                           placeholder="Primer apellido">
+                                    <label>Contenido</label>
+                                    <textarea id="txtDescription" required name="description" class="form-control" rows="3" placeholder="Contenido de la noticia"></textarea>
                                 </div>
                             </div>                       
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="txtName">Segundo apellido</label>                                    
-                                    <input id="txtSecondLastName" name="secondLastName" class="form-control" type="text" value="" autocomplete="off" 
-                                           placeholder="Segundo apellido">
-                                </div>
-                            </div>     
-                        </div>
-
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="txtUser">Nickname</label>                                    
-                                    <input id="txtUser" name="user" class="form-control" type="text" value="" autocomplete="off" required
-                                           placeholder="Nickname">
-                                </div>
-                            </div>                       
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Rol</label>
-                                    <select id="selRol" name="rol" required class="form-control select2" style="width: 100%;">
-                                        <option value="-1" selected> -- SELECCIONE --</option>                            
-                                    </select>
-                                </div>
-                            </div>     
-                        </div>
-
-
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="txtPassword">Password</label>                                    
-                                    <input id="txtPassword" name="password" type="password" class="form-control"  value="" autocomplete="off" required
-                                           placeholder="Password">
-                                </div>
-                            </div>     
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="txtPasswordConfirm">Confirme su password</label>                                    
-                                    <input id="txtPasswordConfirm" name="passwordConfirm" class="form-control" type="password" value="" autocomplete="off" required
-                                           placeholder="Confirme su password">
-                                </div>
-                            </div>                       
-
-
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Descripcion</label>
-                                    <textarea id="txtDescription" name="description" class="form-control" rows="3" placeholder="Descripcion"></textarea>
+                                    <label>Fecha de la noticia</label>
+                                    <div class="input-group date">
+                                        <div class="input-group-addon">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                        <input type="text" name="fecha" required class="form-control pull-right dateAction" id="txtFecha">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Imagen para la notica</label>
+                                    <input type="file" id="fileImagen" name="urlImage">          
+                                    <p id="lblImagenPrevia" class="help-block limpiable"></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="txtVideo">Video</label>                                    
+                                    <input id="txtVideo" name="urlVideo" class="form-control" type="text" value="" autocomplete="off"
+                                           placeholder="Ingrese la url de un video que desee mostrar en la noticia">
                                 </div>
                             </div>                       
                         </div>
-
 
                         <div class="row">
                             <div class="col-md-12">
@@ -259,16 +233,6 @@ and open the template in the editor.
 
 
         <!-- END MODAL DE CONFIRMACION-->
-
-
-
-
-
-
-
-
-
-
 
 
 

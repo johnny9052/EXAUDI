@@ -4,25 +4,11 @@ $(document).ready(function () {
     $.fn.modal.Constructor.DEFAULTS.keyboard = false;
 
 
+    /*Se inicializan los campos de fecha*/
+    $('.dateAction').datepicker({
+        autoclose: true
+    });
 
-//    $('select').material_select();
-//
-//    $('.datepicker').pickadate({
-//        selectMonths: true, // Creates a dropdown to control month
-//        selectYears: 15, // Creates a dropdown of 15 years to control year
-//        onSet: function () {
-//            this.close();//Cuando selecciona una fecha, cierra automaticamente
-//            //el calendario
-//        },
-//        format: 'yyyy-mm-dd',
-//        container: 'body'//Con esto se evita que cuando esta en un modal, 
-//                //quede oculto detras del modal 
-//    });
-
-    //Inicializa los carruseles de la pagina
-//    $(document).ready(function () {
-//        $('.slider').slider({full_width: true});
-//    });
 });
 
 
@@ -75,17 +61,6 @@ function showToast(message, type) {
 
 
 
-/**
- * Muestra un mensaje en un toast con bordes redondeados
- * @param {String} message Mensaje a mostrar en la ventana emergente
- * @returns {void} 
- * @author Johnny Alexander Salazar
- * @version 0.1
- */
-function showRoundedToast(message) {
-    Materialize.toast(message, 2000, 'rounded');
-}
-
 
 /**
  * Muestra u oculta una barra de progreso
@@ -117,7 +92,7 @@ function showLoadBar(status) {
  */
 function Execute(dataSend, url, before, success) {
 
-    //console.log(dataSend);
+    console.log(dataSend);
 
     $.ajax({
         type: 'post',
@@ -130,10 +105,9 @@ function Execute(dataSend, url, before, success) {
         },
         data: dataSend,
         success: function (data) {
-            //console.log(data);
+            console.log(data);
             //document.write(data);
-            //alert(data);
-            //$("#txtDireccionPedido").val(data);
+            //alert(data);            
             showLoadBar(false);
 
             var info = eval("(" + data + ")");
@@ -143,7 +117,7 @@ function Execute(dataSend, url, before, success) {
 
                 case "Success":
                     /*Funcion que refresca la pagina*/
-                    showToast(info.msg,"success");
+                    showToast(info.msg, "success");
 
                     if (success !== "") {
                         /*Si en la estructura enviada se tienen datos, entonces
@@ -179,8 +153,8 @@ function Execute(dataSend, url, before, success) {
             }
         },
         error: function (jqXHR, textStatus, errorThrown) {
-            showToast("Error detectado: " + textStatus + "\nExcepcion: " + errorThrown,"error");
-            showToast("Verifique la ruta del archivo","error");
+            showToast("Error detectado: " + textStatus + "\nExcepcion: " + errorThrown, "error");
+            showToast("Verifique la ruta del archivo", "error");
         }
     });
 }
@@ -210,13 +184,14 @@ function ExecuteNewTab(dataSend, url) {
  * defecto el valor type mandado por parametro 
  * @param {String} type : Accion que se ejecutara en el server
  * @param {String} form : Id del formulario donde se encuentran los inputs
- * @param {Array} dataPlus : Array con datos adicionales, la primera posicion
- * de cada objeto en cada posicion del array, es el nombre que se le asignara
- * a dichos datos
+ * @param {Array} dataPlus : Array de arrays con datos adicionales, la primera posicion
+ * de cada objeto en cada posicion del array padre, es el nombre que se le asignara
+ * a dichos datos. Recordar que el array padre se llamara datos, por lo que se debe mandar
+ * el parametro asi [{datos: arrayQueSeManda }]
  * @param {Boolean} status : Determina si escanea los campos del formulario
  * @returns {Object} Objeto o array nombrado que se enviara por POST
  * @author Johnny Alexander Salazar
- * @version 0.3
+ * @version 0.5
  */
 function scanInfo(type, status, form, dataPlus) {
     var arrayParameters = new Array();
@@ -254,8 +229,13 @@ function scanInfo(type, status, form, dataPlus) {
                 for (var y in dataPlus[x].datos) {
                     valTemp.push(dataPlus[x].datos[y]);
                 }
-                var nombreData = valTemp.shift();
-                arrayParameters.push(newArg(nombreData, valTemp.toString()));
+
+                /*Escanea todos los datos adicionados*/
+                while (valTemp.length > 0) {
+                    var nombreData = valTemp.shift();
+                    var data = valTemp.shift();
+                    arrayParameters.push(newArg(nombreData, data));
+                }
             }
         }
 
@@ -267,6 +247,30 @@ function scanInfo(type, status, form, dataPlus) {
 
 
 
+
+
+
+function base64(file, callback) {
+
+    var coolFile = {};
+    function readerOnload(e) {
+        var base64 = btoa(e.target.result);
+        coolFile.base64 = base64;
+        callback(coolFile);
+    }
+    ;
+
+    var reader = new FileReader();
+    reader.onload = readerOnload;
+
+    var file = file[0].files[0];
+
+    coolFile.filetype = file.type;
+    coolFile.size = file.size;
+    coolFile.filename = file.name;
+    reader.readAsBinaryString(file);
+
+}
 
 
 
@@ -547,6 +551,13 @@ function cleanForm(form) {
         /*Si esta pintado como invalido se le quita*/
         //$("#" + elemento.id).removeClass("invalid");
         $(elemento).parent().closest('div').removeClass("has-error");
+    });
+
+    /*Etiquetas limpiables, la cuales suelen ser etiquetas de texto*/
+    var collection = $(".limpiable");
+    collection.each(function () {
+        var elemento = this;
+        $("#" + elemento.id).html("");
     });
 
 }

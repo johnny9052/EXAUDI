@@ -216,8 +216,8 @@ class Repository extends Internationalization {
             }
 
             if ($vec[0][0] > 0) {
-                echo(json_encode(['res' => 'Success', "msg" => $this->getOperationSuccess(),
-                    'sql' => $query]));
+                echo(json_encode(['res' => 'Success', "msg" => $this->getOperationSuccess()
+                    ]));
             } else {
                 echo(json_encode(['res' => 'Error', "msg" => $this->getOperationError()]));
             }

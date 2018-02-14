@@ -30,6 +30,10 @@ function ExecuteAction($action, $obj, $dao) {
         case "list":
             $dao->ListAll($obj, false);
             break;
+        
+        case "listNoTable":
+            $dao->ListAllNoTable($obj, false);
+            break;
 
         case "listfilter":
             $dao->ListAll($obj, true);

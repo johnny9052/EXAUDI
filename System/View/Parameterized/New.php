@@ -150,7 +150,7 @@ and open the template in the editor.
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="exampleInputFile">Imagen para la notica</label>
-                                    <input type="file" id="fileImagen" name="urlImage">          
+                                    <input type="file" accept=".JPEG,.PNG"  id="fileImagen" name="urlImage">          
                                     <p id="lblImagenPrevia" class="help-block limpiable"></p>
                                 </div>
                             </div>

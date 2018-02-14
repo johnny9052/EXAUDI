@@ -1,4 +1,4 @@
-
+<script src="Resources/public/js/new.js" type="text/javascript"></script>
 
 <div class="row">
     <div class="col s12 m1">

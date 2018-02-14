@@ -19,6 +19,9 @@
         <script src="Resources/public/js/materialize/materialize.js"></script>
         <script src="Resources/public/js/materialize/init.js"></script>
         <script src="Resources/public/js/menu.js" type="text/javascript"></script>
+        
+        <script src="Resources/public/js/general/GeneralMaterialized.js" type="text/javascript"></script>
+        
     </head>
     <body>
 

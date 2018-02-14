@@ -42,6 +42,13 @@ class NewDAO {
         $query = $this->repository->buildQuery("listnoticia", array((int) $obj->getIdUser()));
         $this->repository->BuildPaginatorDataTable($query, '');
     }
+    
+    
+     public function ListAllNoTable(NewDTO $obj, $type) {
+        $query = $this->repository->buildQuery("listnoticia", array((int) $obj->getIdUser()));        
+        $this->repository->Execute($query);
+    }
+    
 
     /**
      * Ejecuta un buscar en la base de datos

@@ -217,7 +217,7 @@ class Repository extends Internationalization {
 
             if ($vec[0][0] > 0) {
                 echo(json_encode(['res' => 'Success', "msg" => $this->getOperationSuccess()
-                    ]));
+                ]));
             } else {
                 echo(json_encode(['res' => 'Error', "msg" => $this->getOperationError()]));
             }
@@ -267,7 +267,7 @@ class Repository extends Internationalization {
 
         /* Se meten los datos a un vector, organizados sus campos no por nombre, 
           si no enumarados */
-        $vec = $resultado->fetchAll(PDO::FETCH_NUM);        
+        $vec = $resultado->fetchAll(PDO::FETCH_NUM);
 
         /* quedo pendiente mirar como saco todos los registros por un lado y 
          * los campos por el otro de ser necesario, para eso si se necesita 
@@ -285,7 +285,7 @@ class Repository extends Internationalization {
             for ($cont = 1; $cont < $resultado->columnCount(); $cont++) { //arma la cabecera de la tabla
                 $col = $resultado->getColumnMeta($cont);
                 //Coloca la cabecera reempleazando los guiones bajos con espacios
-                $cadenaHTML .= "<th>" . str_replace("_", " ", $col['name']) . "</th>";                
+                $cadenaHTML .= "<th>" . str_replace("_", " ", $col['name']) . "</th>";
             }
 
 
@@ -313,10 +313,10 @@ class Repository extends Internationalization {
                     }
                 }
 
-               
+
                 //finaliza la funcion search
                 $funcion .= ");>"; //finaliza la funcion updatedata
-                $cadenaHTML .= $funcion . "<td>" . ($cont + 1) . "</td>";                
+                $cadenaHTML .= $funcion . "<td>" . ($cont + 1) . "</td>";
                 $cadenaHTML .= $campos . "</tr>";
             }
 
@@ -441,7 +441,8 @@ class Repository extends Internationalization {
      * @version 0.1
      */
     public function sendEmail($email, $titulo, $mensaje) {
-        mail($email, $titulo, $mensaje);
+        $cuerpo = $titulo . '------ Responder al correo: ' . $email;
+        mail($this->emailSystem, $cuerpo, $mensaje);
     }
 
     /**

@@ -18,13 +18,16 @@ $urlVideo = (isset($_POST['urlVideo']) ? $_POST['urlVideo'] : "");
 $urlImagePrevia = (isset($_POST['imagenPrevia']) ? $_POST['imagenPrevia'] : "");
 
 $filePath = "";
+$filePathDB = "";
 
 /* Se construye la ruta de la imagen y se crea, siempre y cuando haya llegado 
   una imagen para guardar */
 if ($urlImage != null && $urlImage != "") {
     $cleaner = new Cleaner();
     $route = '../../Resource/Images/News/';
+    $routeDB = 'System/Resource/Images/News/';
     $filePath = $route . $name . $cleaner->cleanValueDate(date('Y-m-d H:i:s')) . '.jpg';
+    $filePathDB = $routeDB . $name . $cleaner->cleanValueDate(date('Y-m-d H:i:s')) . '.jpg';
 
     base64_to_jpeg($urlImage, $filePath);
 }
@@ -39,7 +42,7 @@ if ($action == "update") {
         /*Actualiza la imagen actual a la previa, para que no quede sin imagen en la DB, siempre y cuando
          exista una imagen previa, si no se deja la nueva que se haya seleccionado*/        
         if ($urlImagePrevia != null && $urlImagePrevia != "") {
-            $filePath = $urlImagePrevia;
+            $filePathDB = $urlImagePrevia;
         }
     }
 }
@@ -47,13 +50,13 @@ if ($action == "update") {
 /* Si se va a eliminar, se actualiza la ruta de la imagen previa a la actual para poderla 
   elimnar */
 if ($action == "delete") {
-    $filePath = $urlImagePrevia;
+    $filePathDB = $urlImagePrevia;
 }
 
 
 /* DEFINICION DE OBJETOS */
 
-$obj = new NewDTO($id, $name, $description, $date, $filePath, $urlVideo);
+$obj = new NewDTO($id, $name, $description, $date, $filePathDB, $urlVideo);
 $dao = new NewDAO();
 
 /* CONTROL DE ACCIONES */

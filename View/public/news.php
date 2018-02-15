@@ -11,96 +11,10 @@
 </div>
 
 <div class="">
-    <div class="section">
+    <div class="section" id="lstNoticias">
 
-        <!--   Icon Section   -->
-        <div class="row">
-
-            <div class="col s12 m1">
-
-            </div>
-
-            <div class="col s12 m8">
-                <div class="icon-block">
-                    <div> <hr style="color: #DFDFDF;" /></div>
-                    <label class="textBoldHomeGray">5 DE NOVIEMBRE 2017</label>
-                    <br>
-                    <p class="light textLightGray">Reconocimiento de Family Firm Institute a Guillermo Salazar en el marco de la Conferencia Global 2017</p>
-
-                </div>
-            </div>
-
-            <div class="col s12 m1">
-
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col s12 m1">
-
-            </div>
-
-            <div class="col s12 m8">
-                <div class="icon-block">
-                    <div> <hr style="color: #DFDFDF;" /></div>
-                    <label class="textBoldHomeGray">15 DE SEPTIEMBRE 2017</label>
-                    <br>
-                    <p class="light textLightGray">Primer aniversario de Exaudi Family Business Consulting en la República Dominicana</p>
-
-                </div>
-            </div>
-
-            <div class="col s12 m1">
-
-            </div>
-
-        </div>
         
-         <div class="row">
-
-            <div class="col s12 m1">
-
-            </div>
-
-            <div class="col s12 m8">
-                <div class="icon-block">
-                    <div> <hr style="color: #DFDFDF;" /></div>
-                    <label class="textBoldHomeGray">15 DE SEPTIEMBRE 2017</label>
-                    <br>
-                    <p class="light textLightGray">Primer aniversario de Exaudi Family Business Consulting en la República Dominicana</p>
-
-                </div>
-            </div>
-
-            <div class="col s12 m1">
-
-            </div>
-
-        </div>
         
-        <div class="row">
-
-            <div class="col s12 m1">
-
-            </div>
-
-            <div class="col s12 m8">
-                <div class="icon-block">
-                    <div> <hr style="color: #DFDFDF;" /></div>
-                    <label class="textBoldHomeGray">15 DE SEPTIEMBRE 2017</label>
-                    <br>
-                    <p class="light textLightGray">Primer aniversario de Exaudi Family Business Consulting en la República Dominicana</p>
-
-                </div>
-            </div>
-
-            <div class="col s12 m1">
-
-            </div>
-
-        </div>
 
     </div>
 </div>

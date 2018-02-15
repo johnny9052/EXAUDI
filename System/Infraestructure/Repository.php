@@ -441,8 +441,8 @@ class Repository extends Internationalization {
      * @version 0.1
      */
     public function sendEmail($email, $titulo, $mensaje) {
-        $cuerpo = $titulo . '------ Responder al correo: ' . $email;
-        mail($this->emailSystem, $cuerpo, $mensaje);
+        $mensaje = $mensaje . '------ Responder al correo: ' . $email;
+        mail($this->emailSystem, 'Mensaje de: '.$titulo, $mensaje);
     }
 
     /**

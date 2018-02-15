@@ -94,7 +94,7 @@ function Execute(dataSend, url, before, success, server) {
 
     $.ajax({
         type: 'post',
-        url: server + "Controller/" + url + ".php",
+        url: ((server === undefined) ? "" : server) + "Controller/" + url + ".php",
         beforeSend: function () {
             showLoadBar(true);
             if (before !== "") {

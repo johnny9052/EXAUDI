@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 12-02-2018 a las 04:29:34
+-- Tiempo de generación: 15-02-2018 a las 20:45:17
 -- Versión del servidor: 5.6.12-log
 -- Versión de PHP: 5.4.16
 
@@ -17,16 +17,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de datos: `user_21570920_exaudi`
+-- Base de datos: `exaudi`
 --
-CREATE DATABASE IF NOT EXISTS `user_21570920_exaudi` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `user_21570920_exaudi`;
+CREATE DATABASE IF NOT EXISTS `exaudi` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `exaudi`;
 
 DELIMITER $$
 --
 -- Procedimientos
 --
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `listnoticia`(iduser int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `listnoticia`(iduser int)
     COMMENT 'Procedimiento que lista los roles de un determinado usuario'
 BEGIN
    select id,titulo as titulo_noticia,descripcion ,fecha,foto as ruta_foto,video as ruta_video
@@ -34,7 +34,7 @@ BEGIN
    order by fecha;
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `listrol`(iduser int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `listrol`(iduser int)
     COMMENT 'Procedimiento que lista los roles de un determinado usuario'
 BEGIN
    select id,nombre as nombre_rol,descripcion 
@@ -42,7 +42,7 @@ BEGIN
    order by nombre;
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `listuser`(iduser int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `listuser`(iduser int)
     COMMENT 'Procedimiento que lista los usuarios'
 BEGIN
    
@@ -54,7 +54,7 @@ BEGIN
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `loadallmenu`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadallmenu`()
     COMMENT 'Procedimiento que lista todos los menus del sistema'
 BEGIN
    
@@ -65,7 +65,7 @@ BEGIN
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `loadapage`(IN `vpage` VARCHAR(2000), IN `vrol` INT)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadapage`(IN `vpage` VARCHAR(2000), IN `vrol` INT)
     COMMENT 'Procedimiento que lista los menus'
 BEGIN
    
@@ -76,7 +76,7 @@ BEGIN
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `loadmenu`(IN `rol` INT)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadmenu`(IN `rol` INT)
     COMMENT 'Procedimiento que lista los menus de un determinado rol'
 BEGIN
    
@@ -88,7 +88,7 @@ BEGIN
 	order by m.prioridad;
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `loadrol`(IN `idfilter` INT)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadrol`(IN `idfilter` INT)
     COMMENT 'Procedimiento que lista los roles'
 BEGIN
  
@@ -108,7 +108,7 @@ BEGIN
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `login`(IN `usu` VARCHAR(50), IN `pass` VARCHAR(50))
+CREATE DEFINER=`root`@`localhost` PROCEDURE `login`(IN `usu` VARCHAR(50), IN `pass` VARCHAR(50))
     COMMENT 'Procedimiento que valida las credenciales de un usuairo'
 BEGIN
    select u.usuario,u.primer_nombre,u.primer_apellido,u.rol,u.id,r.nombre as rol_nombre
@@ -117,7 +117,7 @@ BEGIN
    where password=pass and usuario=usu;		
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `searchnoticia`(idnoticia int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `searchnoticia`(idnoticia int)
     COMMENT 'Procedimiento que carga la informacion de una noticia'
 BEGIN
  
@@ -128,7 +128,7 @@ BEGIN
 	
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `searchrol`(idrol int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `searchrol`(idrol int)
     COMMENT 'Procedimiento que carga la informacion de un rol'
 BEGIN
  
@@ -139,7 +139,7 @@ BEGIN
 	
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` PROCEDURE `searchuser`(vid int)
+CREATE DEFINER=`root`@`localhost` PROCEDURE `searchuser`(vid int)
     COMMENT 'Procedimiento que carga la informacion de un usuario'
 BEGIN
  	
@@ -153,7 +153,7 @@ END$$
 --
 -- Funciones
 --
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `deletenoticia`(vid INT) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `deletenoticia`(vid INT) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que elimina una noticia'
@@ -164,7 +164,7 @@ SET res = 1;
 	RETURN res;
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `deleterol`(cod INT) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `deleterol`(cod INT) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que elimina un rol'
@@ -175,7 +175,7 @@ BEGIN
 	RETURN res;
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `deleteuser`(vid INT) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `deleteuser`(vid INT) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que elimina un usuario'
@@ -186,7 +186,7 @@ SET res = 1;
 	RETURN res;
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `savenoticia`(`cod` INT, `titl` VARCHAR(50), `des` VARCHAR(2000), `fech` VARCHAR(20), `phot` VARCHAR(2000), `vid` VARCHAR(500)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `savenoticia`(`cod` INT, `titl` VARCHAR(200), `des` VARCHAR(2000), `fech` VARCHAR(20), `phot` VARCHAR(2000), `vid` VARCHAR(500)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que almacena una noticia'
@@ -204,7 +204,7 @@ IF NOT EXISTS(select titulo from noticia where titulo=titl)
 	
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `saverol`(cod INT,nom varchar(50),des varchar(2000)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `saverol`(cod INT,nom varchar(50),des varchar(2000)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que almacena un rol'
@@ -223,7 +223,7 @@ IF NOT EXISTS(select nombre from rol where nombre=nom)
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `saveuser`(id int, vfirstname varchar(50), vsecondname varchar(50), vfirstlastname varchar(50), vsecondlastname varchar(50), vuser varchar(50), vpass varchar(50), vrol int, vdescription varchar(50)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `saveuser`(id int, vfirstname varchar(50), vsecondname varchar(50), vfirstlastname varchar(50), vsecondlastname varchar(50), vuser varchar(50), vpass varchar(50), vrol int, vdescription varchar(50)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que almacena un rol'
@@ -247,7 +247,7 @@ IF NOT EXISTS(select usuario from usuario where usuario=vuser)
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `updatenoticia`(`cod` INT, `titl` VARCHAR(50), `des` VARCHAR(2000), `fech` VARCHAR(20), `phot` VARCHAR(2000), `vid` VARCHAR(500)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `updatenoticia`(`cod` INT, `titl` VARCHAR(200), `des` VARCHAR(2000), `fech` VARCHAR(20), `phot` VARCHAR(2000), `vid` VARCHAR(500)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que modifica una noticia'
@@ -267,7 +267,7 @@ IF NOT EXISTS(select titulo from noticia where titulo=titl and id<>cod)
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `updatepermission`(vid integer, vpermission varchar(2000)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `updatepermission`(vid integer, vpermission varchar(2000)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que actualiza los permisos de un rol'
@@ -295,7 +295,7 @@ BEGIN
     RETURN res;	
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `updaterol`(cod INT,nom varchar(50),des varchar(2000)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `updaterol`(cod INT,nom varchar(50),des varchar(2000)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que modifica un rol'
@@ -314,7 +314,7 @@ IF NOT EXISTS(select nombre from rol where nombre=nom and id<>cod)
 
 END$$
 
-CREATE DEFINER=`user_21570920`@`localhost` FUNCTION `updateuser`(vid int, vfirstname varchar(50), vsecondname varchar(50), vfirstlastname varchar(50), vsecondlastname varchar(50), vuser varchar(50), vpass varchar(50), vrol int, vdescription varchar(50)) RETURNS int(1)
+CREATE DEFINER=`root`@`localhost` FUNCTION `updateuser`(vid int, vfirstname varchar(50), vsecondname varchar(50), vfirstlastname varchar(50), vsecondlastname varchar(50), vuser varchar(50), vpass varchar(50), vrol int, vdescription varchar(50)) RETURNS int(1)
     READS SQL DATA
     DETERMINISTIC
     COMMENT 'Funcion que modifica un rol'
@@ -405,13 +405,21 @@ INSERT INTO `menu_rol` (`idrol`, `idmenu`) VALUES
 
 CREATE TABLE IF NOT EXISTS `noticia` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `titulo` varchar(50) DEFAULT NULL,
+  `titulo` varchar(200) DEFAULT NULL,
   `descripcion` varchar(2000) DEFAULT NULL,
   `fecha` varchar(20) DEFAULT NULL,
   `foto` varchar(2000) DEFAULT NULL,
   `video` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=25 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `noticia`
+--
+
+INSERT INTO `noticia` (`id`, `titulo`, `descripcion`, `fecha`, `foto`, `video`) VALUES
+(1, 'Noticia 1 de prueba', 'Contenido de la noticia 1', '02/21/2018', '', 'esta es la url del video'),
+(2, 'Noticia 2 ', 'contenido de la noticia 2', '02/21/2018', '../../Resource/Images/News/Noticia 2 20180214210514.jpg', 'sfsdfdsd');
 
 -- --------------------------------------------------------
 
@@ -424,7 +432,7 @@ CREATE TABLE IF NOT EXISTS `rol` (
   `nombre` varchar(50) DEFAULT NULL,
   `descripcion` varchar(2000) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=87 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=86 ;
 
 --
 -- Volcado de datos para la tabla `rol`
@@ -432,7 +440,7 @@ CREATE TABLE IF NOT EXISTS `rol` (
 
 INSERT INTO `rol` (`id`, `nombre`, `descripcion`) VALUES
 (1, 'administrador', 'Super administrador del sistema, tiene todos los permisos'),
-(85, 'user_21570920', 'Tiene todos los permisos, excepto configuracion de roles, usuarios y permisos de usuario');
+(85, 'root', 'Tiene todos los permisos, excepto configuracion de roles, usuarios y permisos de usuario');
 
 -- --------------------------------------------------------
 
@@ -460,7 +468,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 
 INSERT INTO `usuario` (`id`, `primer_nombre`, `segundo_nombre`, `primer_apellido`, `segundo_apellido`, `usuario`, `password`, `rol`, `descripcion`) VALUES
 (1, 'Johnny', 'Alexander', 'Salazar', 'Cardona', 'johnny9052', 'df5be1862ca6bf8589cf799004248e87', 1, ''),
-(2, 'David', '', 'Angarita', '', 'loquita', '202cb962ac59075b964b07152d234b70', 85, 'es una loquita');
+(2, 'David', 'Alberto', 'Angarita', 'Garcia', 'David', 'e10adc3949ba59abbe56e057f20f883e', 1, 'Es un gran programador jajajajajaaj');
 
 --
 -- Restricciones para tablas volcadas

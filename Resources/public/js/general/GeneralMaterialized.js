@@ -92,6 +92,8 @@ function showLoadBar(status) {
  */
 function Execute(dataSend, url, before, success, server) {
 
+    console.log(dataSend);
+
     $.ajax({
         type: 'post',
         url: ((server === undefined) ? "" : server) + "Controller/" + url + ".php",

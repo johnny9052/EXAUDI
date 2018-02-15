@@ -13,8 +13,8 @@
 <div class="">
     <div class="section" id="lstNoticias">
 
-        
-        
+
+
 
     </div>
 </div>
@@ -46,3 +46,20 @@
     </div>
 </div>
 <div class="whiteLineFooter"></div>
+
+
+
+
+<div id="modalNoticia" class="modal modal-fixed-footer">
+    <div id="FormContainer">
+        <div class="modal-content">
+            <input id="txtId" name="id" class="form-control identificator"  type="hidden" value="">
+            <div><img id="imgNoticia" ></div>
+            <div><h4 id="lblTitulo"></h4><br></div>
+            <div><p id="lblDescripcion"></p></div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+        </div>
+    </div>
+</div>

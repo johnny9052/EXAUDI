@@ -24,7 +24,7 @@
 
         </div>
     </div>
-    <div class="parallax"><img src="Resources/public/image/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax" ><img src="Resources/public/image/services/mapaServicios.png" ></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 
@@ -38,8 +38,8 @@
             </div>
 
             <div class="col s12 m4">
-                <div class="icon-block">
-                    <h2 class="center brown-text"><i class="material-icons">group</i></h2>                    
+                <div class="center">
+                    <div><img src="Resources/public/image/services/iconoServicios.png" ></div>
                 </div>
             </div>
 
@@ -181,7 +181,7 @@
 
                     <div class="col s12 m5" >
                         <div class=" btn-large verdeExaudi botonExaudi textLightGreen">
-                            CONTACTO
+                            <a href="index.php?page=contact" style="color: #FFFFFF">Contacto</a>
                         </div>
                     </div>    
                     <div class="col s12 m5">

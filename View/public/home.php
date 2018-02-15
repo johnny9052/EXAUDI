@@ -8,7 +8,7 @@
             <br><br>
             <div class="row right" style="margin: 0 !important;">
                 <div class="col m12 s12">
-                    <img style="width: 75px;margin-right: 75px;" src="Resources/public/image/home/brujula.png">
+                    <img style="width: 75px;margin-right: 75px;" src="Resources/public/image/home/brujula.png" >
                 </div>
             </div>
 
@@ -101,7 +101,7 @@
 
         </div>
     </div>
-    <div class="parallax"><img src="Resources/public/image/home/tree.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="Resources/public/image/home/tree.png" alt="Unsplashed background img 1"></div>
 </div>
 
 
@@ -136,7 +136,7 @@
                     <h5 class="center">
                         <img style="width: 100px;" src="Resources/public/image/home/fruta.png">
                         <br>
-                        <div class=" btn-large grisExaudi botonExaudiGris">NUESTROS SERVICIOS
+                        <div> <a class=" btn-large grisExaudi botonExaudiGris" href="index.php?page=services">NUESTROS SERVICIOS</a>
                         </div>
                     </h5>
                 </div>

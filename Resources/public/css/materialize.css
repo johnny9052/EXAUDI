@@ -4501,6 +4501,16 @@ nav .input-field label.active i {
     letter-spacing: 4px;
     color: #808080
 }
+.textBoldModelGray{
+    font-family: "AktivGrotesk-Bold" !important;
+    color: #808080;
+    font-size: 16px;
+}
+.textLightModelGray{
+    font-family: "AktivGrotesk-Bold" !important;
+    color: #808080;
+    font-size: 12px;
+}
 
 .textBoldTeamGray{
     font-family: "AktivGrotesk-Bold" !important;

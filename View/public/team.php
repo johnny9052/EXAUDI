@@ -216,10 +216,10 @@
 
 <div id="modalGuillermo" class="modal modal-fixed-footer">
     <div class="modal-content">
-        <div class="parallax"><img src="Resources/public/image/team/guillermoFull.jpg" alt="Unsplashed background img 1"></div>
+        <div><img src="Resources/public/image/team/guillermoFull.jpg" alt="Unsplashed background img 1"></div>
         <table>
             <tr>
-                <td style="text-align: left; width: 26%"><h4 class="textBoldModelGray">GUILLERMO SALAZAR</h4></td>
+                <td style="text-align: left; width: 27%"><h4 class="textBoldModelGray">GUILLERMO SALAZAR</h4></td>
                 <td style="text-align: left"><h4 class="textLightModelGray">Mananing Director</h4></td>
             </tr>
         </table> 

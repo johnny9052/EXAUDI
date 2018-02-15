@@ -44,7 +44,7 @@
 
             <div class="input-field col s12 m4">
                 <h6 class="textContact">MENSAJE</h6>
-                <textarea id="txtMensaje" required name="Mensaje" class="white black-text materialize-textarea" value="" autocomplete="off"></textarea>                                                             
+                <textarea id="txtMensaje" required name="mensaje" class="white black-text materialize-textarea" value="" autocomplete="off"></textarea>                                                             
 
 
                 <br>

@@ -21,7 +21,7 @@
 
         </div>
     </div>
-    <div class="parallax"><img src="Resources/public/image/home/way.png" alt="Unsplashed background img 1"></div>
+    <div class="section"><img src="Resources/public/image/home/way.png" alt="Unsplashed background img 1"></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 

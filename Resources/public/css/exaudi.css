@@ -53,7 +53,7 @@
 }
 
 .whiteLineFooter{
-    height: 5px !important;
+    height: 2px !important;
 }
 .titleTeam{
     font-size: 15px;
@@ -123,4 +123,33 @@ nav{
     -webkit-box-shadow: 0 0px 0px 0px !important;
     -moz-box-shadow: 0 0px 0px 0px !important;
     box-shadow: 0 0px 0px 0px !important;
+}
+
+.img-team {
+    display: inline; /*fixes space below image*/
+    max-width: 100%;
+}
+
+.card {
+    width: 702px;
+    border:solid 1px #cad223;
+    padding: 0px;
+}
+
+.caption {
+    background: #cad223;
+    padding: 1px;
+    color: #cad223;
+}
+
+.caption2 {
+    background: #DFDFDF;
+    padding: 1px;
+    color: #DFDFDF;
+}
+
+.captionServices {
+    background: #cad223;
+    padding: 1px;
+    color: #cad223;
 }

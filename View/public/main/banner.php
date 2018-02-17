@@ -12,7 +12,7 @@
                 <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=news">Noticias</a></li>          
                 <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=contact">Contacto</a></li>
                 <li class="menuShowHide"><a class="colorTextoBanner" href="#">Blog</a></li>                                         
-                <li><a id="txtMenu" class="colorTextoBannerMenu">Menu</a></li> 
+                <li><a id="txtMenu" class="colorTextoBannerMenu">MENU</a></li> 
                 <li><a id="txtMenuIcono" class="colorIconoBannerMenu"><i id="btnMenu" class="material-icons">menu</i></a></li>
             </ul>
 

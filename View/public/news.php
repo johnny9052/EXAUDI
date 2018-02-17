@@ -54,12 +54,13 @@
     <div id="FormContainer">
         <div class="modal-content">
             <input id="txtId" name="id" class="form-control identificator"  type="hidden" value="">
-            <div><img id="imgNoticia" ></div>
-            <div><h4 id="lblTitulo"></h4><br></div>
-            <div><p id="lblDescripcion"></p></div>
+            <div><img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1"></div>
+            <div><img style="width:700px !important; height: 400px !important;" id="imgNoticia" ></div>
+            <div><h6 class="textBold" id="lblTitulo"></h6><br></div>
+            <div><p style="text-align: justify !important; " id="lblDescripcion"></p></div>
         </div>
         <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
         </div>
     </div>
 </div>

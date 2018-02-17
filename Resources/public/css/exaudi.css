@@ -31,7 +31,10 @@
 }
 
 .botonExaudiGris{    
-    border:2px solid gray;       
+    border:2px solid gray;
+    font-family: "AktivGrotesk-Bold" !important;
+    letter-spacing: 4px;
+    
 }
 
 

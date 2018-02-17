@@ -187,6 +187,7 @@
 
             </div>
             <div class="col s12 m6">
+                <br>
                 <div style="padding-bottom:50px;" class="left">
                     <p class="verdeExaudi textLightGreen">CONTÁCTENOS PARA OBTENER MÁS INFORMACIÓN SOBRE NUESTROS SERVICIOS                        
                     </p>
@@ -197,7 +198,7 @@
                         </div>
                     </div>    
                     <div class="col s12 m5">
-                        <img style="width: 60px; margin-left: 15px;" src="Resources/public/image/contact/info.png">
+                        <img style="width: 60px; margin-left: 25px; margin-top: -5px" src="Resources/public/image/contact/info.png">
                     </div>                    
                 </div>
             </div>

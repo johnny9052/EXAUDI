@@ -32,31 +32,31 @@
             </div>
 
             <div class="input-field col s12 m4 textLightGreen" style="padding-right: 30px;">
-                <h6 class="textContact">NOMBRE</h6>
+                <h6 class="textLightGreenContact">NOMBRE</h6>
                 <input class="white black-text" required id="txtNombre" name="nombre" type="text" value="" autocomplete="off">
 
-                <h6 class="textContact">EMAIL</h6>
+                <h6 class="textLightGreenContact">EMAIL</h6>
                 <input class="white black-text" required id="txtEmail" name="email" type="email" value="" autocomplete="off" >
 
-                <h6 class="textContact">ORGANIZACION</h6>
+                <h6 class="textLightGreenContact">ORGANIZACION</h6>
                 <input class="white black-text" required id="txtOrganizacion" name="organizacion" type="text" value="" autocomplete="off" >
             </div>
 
             <div class="input-field col s12 m4">
-                <h6 class="textContact">MENSAJE</h6>
+                <h6 class="textLightGreenContact">MENSAJE</h6>
                 <textarea id="txtMensaje" required name="mensaje" class="white black-text materialize-textarea" value="" autocomplete="off"></textarea>                                                             
 
 
                 <br>
 
-                <div class=" btn-large verdeExaudi botonExaudi textContact textLightGreen" onclick="save();">
+                <div class=" btn-large verdeExaudi botonExaudi textLightGreen" onclick="save();">
                     ENVIAR
                 </div>
 
                 <br>
                 <br>
 
-                <div class="textContact textLightGreen">
+                <div class="textLightGreenContact">
                     SIGANOS EN NUESTRAS REDES SOCIALES
                 </div>
 

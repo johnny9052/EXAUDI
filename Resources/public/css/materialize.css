@@ -4485,6 +4485,11 @@ nav .input-field label.active i {
 
 .textBlack{
     font-family: "AktivGrotesk-Black" !important;
+    color: #808080;
+}
+
+.textBlackVerde{
+    font-family: "AktivGrotesk-Black" !important;
 }
 
 .textBold{
@@ -4494,6 +4499,11 @@ nav .input-field label.active i {
 .textBoldHome{
     font-family: "AktivGrotesk-Bold" !important;
     letter-spacing: 4px;
+}
+
+.textBoldHomeBoton{
+    font-family: "AktivGrotesk-Bold" !important;
+    letter-spacing: 6px;
 }
 
 .textBoldHomeGray{
@@ -4543,8 +4553,15 @@ nav .input-field label.active i {
     
 }
 
+.textLightGreenContact{
+    font-family: "AktivGrotesk-Light" !important;
+    font-size: 16px !important;
+}
+
 .textMedium{
     font-family: "AktivGrotesk-Medium" !important;
+    line-height: 30px !important;
+    letter-spacing: 1px;
 }
 
 

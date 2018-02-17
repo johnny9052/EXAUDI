@@ -14,14 +14,14 @@
 
             <div class="row center">
                 <div class="col m12 s12">
-                    <p class="center light textMediumGray">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
+                    <p class="center light textLightGray">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
                 </div>
             </div>           
-            
+
 
         </div>
     </div>
-    <div class="section"><img src="Resources/public/image/home/way.png" alt="Unsplashed background img 1"></div>
+    <div><img src="Resources/public/image/home/way.png" alt="Unsplashed background img 1"></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 
@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col s12">
                 <div class="icon-block">                    
-                    <h5 class="center textBoldHomeGray">OBJETIVIDAD PROFESIONAL</h5>
+                    <h5 class="center textBlack">OBJETIVIDAD PROFESIONAL</h5>
 
                     <p class="center light textMediumGray">ENTENDEMOS A LA FAMILIA COMO UNA UNIDAD, DONDE CADA MIEMBRO INFLUYE EN LAS CARACTERÍSTICAS QUE LA DEFINEN</p>
                 </div>
@@ -77,7 +77,7 @@
         <div class="row">
             <div class="col s12">
                 <div class="icon-block">                    
-                    <h5 class="center textBoldHome">HONESTIDAD</h5>
+                    <h5 class="center textBlackVerde">HONESTIDAD</h5>
 
                     <p class="center light textMedium">NUESTRO CLIENTE ES LA FAMILIA Y SU PATRIMONIO, LES ORIENTAMOS Y DISEÑAMOS SOLUCIONES ADAPTADAS A SUS NECESIDADES REALES</p>
                 </div>
@@ -91,7 +91,7 @@
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
-            <h5 class="center textBoldHome"><br><br><br><br>EMPATÍA</h5>
+            <h5 class="center textBlackVerde"><br><br><br><br><br><br>EMPATÍA</h5>
 
             <div class="row center">
 
@@ -111,7 +111,7 @@
         <div class="row">
             <div class="col s12">
                 <div class="icon-block">                    
-                    <h5 class="center textBoldHome">CONFIDENCIALIDAD</h5>
+                    <h5 class="center textBlackVerde">CONFIDENCIALIDAD</h5>
 
                     <p class="center light textMedium">SOMOS DEPOSITARIOS DE LA CONFIANZA DE NUESTROS CLIENTES. HONRAMOS EL VOTO DE CONFIDENCIALIDAD CON CUIDADO Y ESPÍRITU PROFESIONAL</p>
                 </div>
@@ -128,20 +128,13 @@
 
 
 <div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">
-    <div class="section">
-        <!--   Icon Section   -->
-        <div class="row">
-            <div class="col s12">
-                <div class="icon-block">                                       
-                    <h5 class="center">
-                        <img style="width: 100px;" src="Resources/public/image/home/fruta.png">
-                        <br>
-                        <div> <a class=" btn-large grisExaudi botonExaudiGris" href="index.php?page=services">NUESTROS SERVICIOS</a>
-                        </div>
-                    </h5>
+    <div class="row">
+            <h5 class="center">
+                <img style="width: 60px;" src="Resources/public/image/home/fruta.png">
+                <br><br>
+                <div> <a class=" btn-large grisExaudi botonExaudiGris textBoldHomeBoton" href="index.php?page=services">NUESTROS SERVICIOS</a>
                 </div>
-            </div>         
-        </div>
+            </h5>
     </div>
 </div>
 

@@ -34,11 +34,12 @@
                     </p>
 
                     <div class="col s12 m5" >
-                        <div class=" btn-large verdeExaudi botonExaudi textLightGreen">BLOG
+                        <div class=" btn-large verdeExaudi botonExaudi textLightGreen">
+                            <a href="index.php?page=contact" style="color: #FFFFFF">BLOG</a>
                         </div>
                     </div>    
-                    <div class="col s12 m5 textLightGreen">
-                        <img src="Resources/public/image/new/iconoBotonBlog.png" alt="" class="circle responsive-img" style="width: 50px"> <!-- notice the "circle" class -->
+                    <div class="col s12 m5">
+                        <img style="width: 30px; margin-left: -40px; margin-top: -2px" src="Resources/public/image/new/iconoBotonBlog.png">
                     </div>
                 </div>
             </div>

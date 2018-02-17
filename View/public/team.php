@@ -192,22 +192,23 @@
             <div class="col s12 m1">
 
             </div>
-            <div class="col s12 m6">
+            <div class="col s12 m7">
                 <div style="padding-bottom:50px;" class="left textLightGreen">
+                    <br>
                     <p class="verdeExaudi textLightGreen">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
                         <br> 
                         ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
                         <br>
                     </p>
 
-                    <div class="col s12 m5 textLightGreen" >
+                    <div class="col s12 m5" >
                         <div class=" btn-large verdeExaudi botonExaudi textLightGreen">
-                            <a href="index.php?page=services" style="color: #FFFFFF">NUESTROS SERVICIOS</a> 
+                            <a href="index.php?page=contact" style="color: #FFFFFF">NUESTROS SERVICIOS</a>
                         </div>
                     </div>    
                     <div class="col s12 m5">
-                        <img src="Resources/public/image/team/iconoBotonTeam.png" alt="iconoBotonTeam" style="width:75px">
-                    </div>
+                        <img style="width: 35px; margin-left: 5px; margin-top: -2px" src="Resources/public/image/team/iconoBotonTeam.png">
+                    </div> 
                 </div>
             </div>
         </div>

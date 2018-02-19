@@ -61,6 +61,13 @@ class NewDAO {
         $query = $this->repository->buildQuery("searchnoticia", array((int) $obj->getId()));
         $this->repository->Execute($query);
     }
+    
+    
+    
+    public function GeneratePDF(NewDTO $obj) {
+        $query = $this->repository->buildQuery("searchnoticia", array((int) $obj->getId()));
+        $this->repository->BuildPDF($query);
+    }
 
     /**
      * Ejecuta un actualizar en la base de datos

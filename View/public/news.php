@@ -12,14 +12,21 @@
 
 <div class="">
 
+
+    <form name="formPDF" method="post" action="System/Controller/Parameterized/CtlNew.php" target="_blank">
+        <input type="hidden" name="id" value="30">
+        <input type="hidden" name="action" value="GeneratePDF">
+        <input type="submit" value="Generar PDF">
+    </form>
+
     <table>
         <tr>
             <td>
-                
+
                 <div class="col s4 l4 m4 container">
-                    
+
                 </div>
-                
+
                 <div class="col s4 l4 m4 container">
                     <div class="progress verdeExaudi">
                         <div class="indeterminate"></div>

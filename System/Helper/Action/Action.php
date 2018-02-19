@@ -39,6 +39,10 @@ function ExecuteAction($action, $obj, $dao) {
             $dao->ListAll($obj, true);
             break;
 
+        case "GeneratePDF":
+            $dao->GeneratePDF($obj);
+            break;
+        
         /* END Transaction CRUD */
 
 

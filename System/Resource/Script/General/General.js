@@ -92,8 +92,10 @@ function showLoadBar(status) {
  */
 function Execute(dataSend, url, before, success) {
 
-    console.log(dataSend);
+    //console.log(dataSend);
 
+
+    //alert("ffsfsdfsd");
     $.ajax({
         type: 'post',
         url: "Controller/" + url + ".php",
@@ -107,10 +109,12 @@ function Execute(dataSend, url, before, success) {
         success: function (data) {
             console.log(data);
             //document.write(data);
-            //alert(data);            
+            //alert(data);
             showLoadBar(false);
 
-            var info = eval("(" + data + ")");
+            /*Se reemplaza cualquier tipo de ENTER se que encuentre, ya que esto 
+             * afecta la estructura del JSON*/
+            var info = eval("(" + data.replace(/\n/ig, "") + ")");
             var response = (info.res !== undefined) ? info.res : info[0].res;
             var msg = (info.msg !== undefined) ? info.msg : "";
             switch (response) {
@@ -214,9 +218,13 @@ function scanInfo(type, status, form, dataPlus) {
             if (elemento.type === "checkbox") {
                 arrayParameters.push(newArg(elemento.name, (elemento.checked) ? 1 : 0));
             } else {
-                arrayParameters.push(newArg(elemento.name, elemento.value));
+                /*Si es un radio, retornamos 1 si esta checkeado, 0 si no*/
+                if (elemento.type === "textarea") {
+                    arrayParameters.push(newArg(elemento.name, elemento.value));
+                } else {
+                    arrayParameters.push(newArg(elemento.name, elemento.value));
+                }
             }
-
             //alert("detectado");
         });
     }

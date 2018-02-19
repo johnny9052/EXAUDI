@@ -4,7 +4,7 @@
 }
 
 .seleccionable{
-    cursor: pointer;   
+    cursor: pointer !important;   
 }
 
 .verdeExaudi{

@@ -1,7 +1,9 @@
 $(document).ready(function () {
     $("#txtMenuIcono").click(mostrarOcultar);
     $("#txtMenu").click(mostrarOcultar);
-    
+
+    $("#btnTopPage").click(topPage);
+
     $(".button-collapse").sideNav();
 });
 
@@ -23,7 +25,7 @@ function mostrarOcultar() {
 
         $("#txtMenuIcono").removeClass("colorIconoBannerMenuGris");
         $("#txtMenuIcono").addClass("colorIconoBannerMenu");
-      
+
         $(".menuShowHide").fadeOut("slow");
         estadoMenu = false;
     } else {
@@ -35,12 +37,19 @@ function mostrarOcultar() {
 
         $("#txtMenu").removeClass("colorTextoBannerMenu");
         $("#txtMenu").addClass("colorTextoBannerMenuGris");
-        
+
         $("#txtMenuIcono").removeClass("colorIconoBannerMenu");
         $("#txtMenuIcono").addClass("colorIconoBannerMenuGris");
-        
+
         $(".menuShowHide").fadeIn("slow");
         estadoMenu = true;
     }
 
+}
+
+
+
+
+function topPage() {    
+    $('html, body').animate({scrollTop: 0}, 'slow');
 }

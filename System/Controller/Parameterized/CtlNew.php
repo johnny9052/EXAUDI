@@ -37,7 +37,7 @@ if ($urlImage != null && $urlImage != "") {
 if ($action == "update") {
     /* Se valida se viene una imagen previa y se ha cargado otra para eliminar la anterior */
     if ($urlImagePrevia !== "" && $urlImage !== "") {
-        unlink($urlImagePrevia);
+        unlink(str_replace("System","../..",$urlImagePrevia));
     } else {
         /*Actualiza la imagen actual a la previa, para que no quede sin imagen en la DB, siempre y cuando
          exista una imagen previa, si no se deja la nueva que se haya seleccionado*/        
@@ -50,7 +50,7 @@ if ($action == "update") {
 /* Si se va a eliminar, se actualiza la ruta de la imagen previa a la actual para poderla 
   elimnar */
 if ($action == "delete") {
-    $filePathDB = $urlImagePrevia;
+    $filePathDB = str_replace("System","../..",$urlImagePrevia);
 }
 
 

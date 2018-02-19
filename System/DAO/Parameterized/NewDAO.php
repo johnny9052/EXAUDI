@@ -89,7 +89,7 @@ class NewDAO {
 
         //echo $obj->getUrlImage();
         //Se elimina la imagen, siempre y cuando exista
-        if ($obj->getUrlImage() != null) {
+        if ($obj->getUrlImage() != null) {            
             unlink($obj->getUrlImage());
         }
 

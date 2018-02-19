@@ -22,6 +22,19 @@
 <div class="verdeExaudi anchoTotal alturaSectionContact">
     <div class="section" id="ModalNew">
 
+        <div class="row">
+            <div class="col s4 l4 m4 container">
+
+            </div>
+
+            <div class="col s4 l4 m4 container">
+                <div class="progress">
+                    <div class="indeterminate"></div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="row" id="FormContainer">
 
             <div class="input-field col s12 m1">                

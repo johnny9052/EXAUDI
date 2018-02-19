@@ -1,8 +1,11 @@
+$(document).ready(function () {
+    showLoadBar(false);
+});
 
 
-
-function save() {
+function save() {    
     if (validateForm() === true) {
-        Execute(scanInfo('sendEmail', true), 'Contact/CtlContact', '', 'cleanForm();');
+        showLoadBar(true);
+        Execute(scanInfo('sendEmail', true), 'Contact/CtlContact', '', 'cleanForm();showLoadBar(false);');
     }
 }

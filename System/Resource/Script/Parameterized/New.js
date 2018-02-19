@@ -44,11 +44,11 @@ function search(id) {
 }
 
 
-function showData(info) {
+function showData(info) {    
     $("#txtId").val(info[0].id);
     $("#txtTitulo").val(info[0].titulo);
-    $("#txtDescription").val(info[0].descripcion);
-
+    $("#txtDescription").val(info[0].descripcion);    
+    
     $("#txtFecha").val(info[0].fecha);
     $("#lblImagenPrevia").html(info[0].foto);
     $("#txtVideo").val(info[0].video);

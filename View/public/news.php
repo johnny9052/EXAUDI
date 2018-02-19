@@ -11,12 +11,43 @@
 </div>
 
 <div class="">
-    <div class="section" id="lstNoticias">
+
+    <table>
+        <tr>
+            <td>
+                
+                <div class="col s4 l4 m4 container">
+                    
+                </div>
+                
+                <div class="col s4 l4 m4 container">
+                    <div class="progress verdeExaudi">
+                        <div class="indeterminate"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="section" id="lstNoticias">
+
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+                <ul class="pagination" id="segmentoPaginador">  
+
+                </ul>
+
+            </td>
+        </tr>
+    </table>
 
 
 
 
-    </div>
 </div>
 
 <div class="verdeExaudi anchoTotal">

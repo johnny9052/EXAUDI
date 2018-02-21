@@ -37,7 +37,7 @@
         <tr>
             <td>
                 <div class="section" id="lstNoticias">
-
+                    
                 </div>
 
             </td>
@@ -97,6 +97,7 @@
             <div><img style="width:700px !important; height: 400px !important;" id="imgNoticia" ></div>
             <div><h6 class="textBold" id="lblTitulo"></h6><br></div>
             <div><p style="text-align: justify !important; " id="lblDescripcion"></p></div>
+            <div><a style="text-align: justify !important; " id="urlVideo" target="_blank">Ver video</a></div>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>

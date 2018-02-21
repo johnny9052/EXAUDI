@@ -156,3 +156,7 @@ nav{
     padding: 1px;
     color: #cad223;
 }
+
+.menuBanner:hover{
+    background-color: red !important;
+}

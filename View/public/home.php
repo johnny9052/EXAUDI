@@ -132,7 +132,7 @@
             <h5 class="center">
                 <img style="width: 60px;" src="Resources/public/image/home/fruta.png">
                 <br><br>
-                <div> <a class=" btn-large grisExaudi botonExaudiGris textBoldHomeBoton" href="index.php?page=services">NUESTROS SERVICIOS</a>
+                <div> <a class="notShadow btn-large grisExaudi botonExaudiGris textBoldHomeBoton" href="index.php?page=services">NUESTROS SERVICIOS</a>
                 </div>
             </h5>
     </div>

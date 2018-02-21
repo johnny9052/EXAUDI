@@ -13,10 +13,9 @@
 <div class="">
 
 
-    <form name="formPDF" method="post" action="System/Controller/Parameterized/CtlNew.php" target="_blank">
-        <input type="hidden" name="id" value="30">
-        <input type="hidden" name="action" value="GeneratePDF">
-        <input type="submit" value="Generar PDF">
+    <form id="frmPDF" name="formPDF" method="post" action="System/Controller/Parameterized/CtlNew.php" target="_blank">
+        <input type="hidden" name="id" value="30" id="idPDF">
+        <input type="hidden" name="action" value="GeneratePDF">        
     </form>
 
     <table>
@@ -72,7 +71,7 @@
                     </p>
 
                     <div class="col s12 m5" >
-                        <div class=" btn-large verdeExaudi botonExaudi textLightGreen">
+                        <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen">
                             <a href="index.php?page=contact" style="color: #FFFFFF">BLOG</a>
                         </div>
                     </div>    
@@ -93,7 +92,11 @@
     <div id="FormContainer">
         <div class="modal-content">
             <input id="txtId" name="id" class="form-control identificator"  type="hidden" value="">
-            <div><img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1"></div>
+            <div>
+                <img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1">
+                
+                <i class="material-icons right seleccionable" onclick="generarPdf();">picture_as_pdf</i>              
+            </div>
             <div><img style="width:700px !important; height: 400px !important;" id="imgNoticia" ></div>
             <div><h6 class="textBold" id="lblTitulo"></h6><br></div>
             <div><p style="text-align: justify !important; " id="lblDescripcion"></p></div>

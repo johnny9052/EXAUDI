@@ -62,7 +62,7 @@
 
                 <br>
 
-                <div class=" btn-large verdeExaudi botonExaudi textLightGreen" onclick="save();">
+                <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen" onclick="save();">
                     ENVIAR
                 </div>
 

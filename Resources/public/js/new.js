@@ -65,7 +65,7 @@ function configurarPaginador(posSeleccionada) {
 
 
 function repaginar(posSeleccionada) {
-    
+
     showLoadBar(true);
 
     var listado = "";
@@ -93,9 +93,9 @@ function repaginar(posSeleccionada) {
 
     }
 
-   
+
     $("#lstNoticias").html(listado);
-    
+
     showLoadBar(false);
 
 }
@@ -106,6 +106,9 @@ function repaginar(posSeleccionada) {
 
 function cargarNoticia(id) {
     $("#txtId").val(id);
+    /*Form para el pdf*/
+    $("#idPDF").val(id);
+    
     Execute(scanInfo('search', true, 'modalNoticia'), 'Parameterized/CtlNew', '', 'mostrarNoticia(info);', 'System/');
 }
 
@@ -129,4 +132,12 @@ function mostrarNoticia(info) {
 
     $("#lblDescripcion").html(description);
 
+}
+
+
+
+
+
+function generarPdf() {
+    document.getElementById('frmPDF').submit();
 }

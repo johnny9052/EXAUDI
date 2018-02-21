@@ -202,7 +202,7 @@
                     </p>
 
                     <div class="col s12 m5" >
-                        <div class=" btn-large verdeExaudi botonExaudi textLightGreen">
+                        <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen">
                             <a href="index.php?page=contact" style="color: #FFFFFF">NUESTROS SERVICIOS</a>
                         </div>
                     </div>    

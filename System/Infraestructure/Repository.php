@@ -438,48 +438,33 @@ class Repository extends Internationalization {
          */
 
         require_once('../../Resource/html2pdf/html2pdf.class.php'); // Se carga la libreria
-        
+
         if ($resultado->rowCount() > 0) {
-           
+
+            $descripcion = '';
             $cadenaHTML = "<page>";
-            $cadenaHTML .= "<h1>ESTE ES EL REPORTE</h1>";
             $cadenaHTML .= '<link href="../../Resource/Style/estilosPDF.css" type="text/css" rel="stylesheet">';
-            $cadenaHTML .= "<table border='1'>";
-
-
-            $cadenaHTML .= "<tr>";            
-
-
-
-            for ($cont = 1; $cont < $resultado->columnCount(); $cont++) { //arma la cabecera de la tabla
-                $col = $resultado->getColumnMeta($cont);
-                //Coloca la cabecera reempleazando los guiones bajos con espacios
-                $cadenaHTML .= "<th>" . str_replace("_", " ", $col['name']) . "</th>";
-                //VERIFICAR AQUI
+            $cadenaHTML .= "<div><img class='logo' src='../../../Resources/public/image/logo.png'></div><br><br>";
+            
+            if ($vec[0][4] != '' && $vec[0][4] != null) {
+                $cadenaHTML .= "<div><img class='imgNoticia' id='imgNoticia' src='../../../" . $vec[0][4] . "'></div>";
             }
 
-
-            $cadenaHTML .= "</tr>";
-
+            $cadenaHTML .= "<div><h4>" . $vec[0][1] . "</h4><br></div>";
 
 
-            for ($cont = 0; $cont < sizeof($vec); $cont++) { //recorre registro por registro
-                //variable que contiene el tr con la funcion del selradio y el update data
-                //variable que contiene los valores de los campos de la tabla
-                $campos = "";
-                //en el registro que se encuentre pinta sus campos y los saca para la funcion selradio y update data
-                for ($posreg = 0; $posreg < $resultado->columnCount(); $posreg++) {//por cada valor del registro
-                    if ($posreg > 0) {//omite el id para no mostrarlo en los campos de la tabla
-                        $campos .= "<td>" . substr($vec[$cont][$posreg], 0, $max) .
-                                ((strlen($vec[$cont][$posreg]) > $max) ? ".." : "") . "</td>";
-                    }
-                }
+            $descripcion .= str_replace("\n", "<br>", $vec[0][2]);
+            $descripcionArray = explode("<br>", $descripcion);
 
-                //$cadenaHTML.=$funcion;
-                $cadenaHTML .= "<tr>" . $campos . "</tr>";
+            foreach ($descripcionArray as $valor) {
+                $cadenaHTML .= "<div><label class='descNoticia'>" . $valor . "</label></div>";
             }
 
-            $cadenaHTML .= "</table></page>";
+            if ($vec[0][5] != '' && $vec[0][5] != null) {
+                $cadenaHTML .= "<table><tr><td><h4>Video: </h4></td><td><a>" . $vec[0][5] . "</a></td></tr></table>";
+            }
+
+            $cadenaHTML .= "</page>";
         } else {
             $cadenaHTML = "<label>No hay registros en la base de datos</label>";
         }
@@ -488,7 +473,7 @@ class Repository extends Internationalization {
         $html2pdf = new HTML2PDF('P', 'A4', 'es');
         $html2pdf->WriteHTML($cadenaHTML); //Lo que tenga content lo pasa a pdf
         ob_end_clean(); // se limpia nuevamente el buffer
-        $html2pdf->Output('exemple.pdf'); //se genera el pdf, generando por defecto el nombre indicado para guardar
+        $html2pdf->Output($vec[0][1] . '.pdf'); //se genera el pdf, generando por defecto el nombre indicado para guardar
     }
 
     /* Funciones para correo electronico */

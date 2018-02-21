@@ -34,7 +34,7 @@
     border:2px solid gray;
     font-family: "AktivGrotesk-Bold" !important;
     letter-spacing: 4px;
-    
+
 }
 
 
@@ -155,4 +155,11 @@ nav{
     background: #cad223;
     padding: 1px;
     color: #cad223;
+}
+
+
+.notShadow{
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
 }

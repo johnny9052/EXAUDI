@@ -157,6 +157,10 @@ nav{
     color: #cad223;
 }
 
+.menuBanner:hover{
+    color: red !important;
+    background-color: red !important;
+}
 
 .notShadow{
     -webkit-box-shadow: none !important;

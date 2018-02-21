@@ -19,7 +19,7 @@
 
 
 
-<div class="verdeExaudi anchoTotal alturaSectionContact">
+<div class="verdeExaudi anchoTotal alturaSectionContact" style="background-image: url('Resources/public/image/contact/map.png'); ">
     <div class="section" id="ModalNew">
 
         <div class="row">
@@ -35,7 +35,7 @@
         </div>
 
 
-        <div class="row" id="FormContainer">
+        <div class="row" id="FormContainer" >
 
             <div class="input-field col s12 m1">                
             </div>

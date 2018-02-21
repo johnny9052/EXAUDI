@@ -121,6 +121,10 @@ function mostrarNoticia(info) {
     } else {
         $("#imgNoticia").hide();
     }
+    
+    if (info[0].video !== "") {
+        $("#urlVideo").attr("href", info[0].video)
+    }
 
 
 

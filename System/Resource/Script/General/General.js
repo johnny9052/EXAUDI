@@ -92,7 +92,7 @@ function showLoadBar(status) {
  */
 function Execute(dataSend, url, before, success) {
 
-    //console.log(dataSend);
+    console.log("Lo que se envia: "+dataSend);
 
 
     //alert("ffsfsdfsd");
@@ -485,7 +485,7 @@ function validateForm(form) {
  * @version 0.2
  */
 function newArg(key, value) {
-    return key + "=" + value;
+    return key + "==" + value;
 }
 
 
@@ -514,7 +514,7 @@ function defualtForm(form) {
 function arrayToObject(arrayParameters) {
     var myObj = new Object;
     for (var x in arrayParameters) {
-        myObj[((arrayParameters[x]).split("="))[0]] = ((arrayParameters[x]).split("="))[1];
+        myObj[((arrayParameters[x]).split("=="))[0]] = ((arrayParameters[x]).split("=="))[1];
     }
     return myObj;
 }

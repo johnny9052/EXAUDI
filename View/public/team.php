@@ -202,12 +202,12 @@
                     </p>
 
                     <div class="col s12 m5" >
-                        <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen">
-                            <a href="index.php?page=contact" style="color: #FFFFFF">NUESTROS SERVICIOS</a>
-                        </div>
+                        <a href="index.php?page=services" style="color: #FFFFFF">
+                            <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen">NUESTROS SERVICIOS</div>
+                        </a>
                     </div>    
                     <div class="col s12 m5">
-                        <img style="width: 35px; margin-left: 5px; margin-top: -2px" src="Resources/public/image/team/iconoBotonTeam.png">
+                        <img style="width: 35px; margin-left: -45px; margin-top: -2px" src="Resources/public/image/team/iconoBotonTeam.png">
                     </div> 
                 </div>
             </div>
@@ -216,7 +216,7 @@
 </div>
 <div class="whiteLineFooter"></div>
 
-<div id="modalGuillermo" class="modal modal-fixed-footer" >
+<div id="modalGuillermo" class="modal modal-fixed-footer">
     <div class="modal-content" >
         <div class="card">
             <div class="img-team"><img style="width:700px !important; height: 450px !important; padding-bottom: 0px !important; display: block !important;" src="Resources/public/image/team/guillermoFull.jpg" alt="Unsplashed background img 1"></div>
@@ -228,25 +228,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Mananing Director</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -258,7 +253,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Experto en gobierno corporativo, planificación estratégica de la sucesión y patrimonios familiares. Ha asesorado a numerosas familias empresarias en sus protocolos, transición generacional, alineación de la visión de la familia y sus valores para la toma de decisiones y resolución de conflictos. Es autor, de los libros "Empresas Familiares: Herramientas para la Gestión del Amor y el Dinero" y "Manual de la Empresa Familiar", conferencista y educador líder en el campo de la empresa familiar en Latinoamérica. Fellow member del Family Firm Institute con sede en Boston, Estados Unidos. En 2015 fue reconocido con el International Achievement Award del Family Firm Institute (Boston). 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -275,25 +270,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -305,7 +295,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Experto en gobierno corporativo y en el manejo de dinámicas familiares en el ámbito de la familia y empresa, especialmente en contexto de cambios y nuevos emprendimientos. Autor de artículos relacionados con la empresa familiar en Latinoamérica, es conferencista internacional y está acreditado con la certificación en "Recursos para la Capacitación de Directores para el Liderazgo en Gobierno Corporativo” Corporación Financiera Internacional. Miembro del Family Firm Institute y acreditado con el Certificate in Family Business Advising del Family  Firm Institute con sede en Boston, Estados Unidos. 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -322,25 +312,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -352,7 +337,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Experta en gobierno corporativo y planificación patrimonial. Ha acompañado a un número importante de familias en el fortalecimiento de la estructura del patrimonio empresarial y familiar desde el punto de vista legal y fiscal. Es conferencista, miembro activo del Columbia Latin Business Law Association, y esta acreditada con el Certificate in Family Business Advising del Family Firm Institute. 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -369,25 +354,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -399,7 +379,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Experto en NextGen y procesos de integración de nuevas generaciones al negocio familiar. Autor del libro “Manual de Supervivencia para la Empresa Familiar” y reconocido conferencista sobre procesos de cambio. Apasionado de la docencia ha formado a altos ejecutivos, directores y empresarios en procesos de cambio y marketing experiencial. 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -416,25 +396,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -446,7 +421,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Experta en gobierno corporativo y planificación patrimonial. Ha acompañado a un número importante de familias en el fortalecimiento de la estructura del patrimonio empresarial y familiar desde el punto de vista legal y fiscal. Es conferencista, miembro activo del Columbia Latin Business Law Association, y esta acreditada con el Certificate in Family Business Advising del Family Firm Institute. 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -463,25 +438,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                       <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -493,7 +463,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Conferenciante y divulgador de referencia: experto en liderazgo y actitudes clave en gestión de proyectos empresariales, profesionales o personales, que desarrolla con autenticidad y credibilidad por su experiencia empresarial y aventurera. Aventurero extremo: Cruzó la Antártida sin asistencia en solitario, escaló el Everest, participó en 9 Dakars (primer coche eléctrico), y es corredor de ultra maratones. Emprendedor desde los 26 años, en 2004 fundó INVERGROUP, plataforma de gestión de proyectos de energía y medio ambiente. Autor de “El explorador del futuro”, “Vivir para sentirse vivo” , “El valor del viaje” y “Espíritu de aventura: Los 7 retos del Emprendedor. 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -510,25 +480,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -540,7 +505,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Experto en gobierno corporativo, planificación estratégica de la sucesión y patrimonios familiares. Ha asesorado anumerosas familias empresarias en sus protocolos, transición generacional, alineación de la visión de la familia y sus valores para la toma de decisiones y resolución de conflictos. Es autor, de los libros "Empresas Familiares: Herramientas para la Gestión del Amor y el Dinero" y "Manual de la Empresa Familiar", conferencista y educador líder en el campo de la empresa familiar en Latinoamérica. Fellow member del Family Firm Institute con sede en Boston, Estados Unidos. En 2015 fue reconocido con el International Achievement Award del Family Firm Institute (Boston). 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -557,25 +522,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Regional executive</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -587,7 +547,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Sandra es abogada especializada en relacionamiento y negociación. Con amplio conocimiento y trayectoria en negociaciones, relacionamiento con asociaciones, líderes locales y empresarios. Es la responsable de fortalecer las relaciones con grupos de interés en el área de Houston Texas para Exaudi Family Business Consulting. Capacitadora en mediación, técnicas de negociación y comunicación asertiva. 
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>
@@ -604,25 +564,20 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Administrative Manager</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                        <div >
-                            <li class="iconosFooter mdi mdi-email-outline">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                        <div>
+                            <a class="green-textFooter" href="index.php?page=contact" target="_blank">
+                                <li class="iconosFooter mdi mdi-email-outline"></li>
+                            </a>
 
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-
-                            <li class="iconosFooter mdi mdi-facebook">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-twitter">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
-                            <li class="iconosFooter mdi mdi-linkedin">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                            <a class="green-textFooter" href="https://www.facebook.com/exaudionline/" target="_blank">
+                                <li class="iconosFooter mdi mdi-facebook"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://twitter.com/exaudionline" target="_blank">
+                                <li class="iconosFooter mdi mdi-twitter"></li>
+                            </a>
+                            <a class="green-textFooter" href="https://www.linkedin.com/company/exaudi-family-business-consulting/" target="_blank">
+                                <li class="iconosFooter mdi mdi-linkedin"></li>
+                            </a>
                         </div>
                 </td>
 
@@ -634,7 +589,7 @@
         <p class="textLightGrayTeam" style="text-align: justify">Sissi se desempeña como responsable del área administrativa de la empresa. Con amplio conocimiento en gestión de proyectos, supervisión, contratación y creación de presupuestos, su apoyo al equipo permite establecer las condiciones adecuadas de control y confianza en la gestión y las finanzas.
         </p>
     </div>
-    <div class="modal-footer">
+    <div class="modal-header" style="float:right">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
     </div>
 </div>

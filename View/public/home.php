@@ -21,7 +21,7 @@
 
         </div>
     </div>
-    <div><img src="Resources/public/image/home/way.png" alt="Unsplashed background img 1"></div>
+    <div><img src="Resources/public/image/home/way.png" alt="way"></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 

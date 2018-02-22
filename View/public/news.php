@@ -36,7 +36,7 @@
         <tr>
             <td>
                 <div class="section" id="lstNoticias">
-                    
+
                 </div>
 
             </td>
@@ -92,9 +92,8 @@
     <div id="FormContainer">
         <div class="modal-content">
             <input id="txtId" name="id" class="form-control identificator"  type="hidden" value="">
+            <div><img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1"></div>
             <div>
-                <img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1">
-                
                 <i class="material-icons right seleccionable" onclick="generarPdf();">picture_as_pdf</i>              
             </div>
             <div><img style="width:700px !important; height: 400px !important;" id="imgNoticia" ></div>
@@ -102,7 +101,7 @@
             <div><p style="text-align: justify !important; " id="lblDescripcion"></p></div>
             <div><a style="text-align: justify !important; " id="urlVideo" target="_blank">Ver video</a></div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-header" style="float:right">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
         </div>
     </div>

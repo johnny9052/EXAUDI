@@ -1,27 +1,34 @@
+<div class="container">
+    <br><br>
+    <div class="row right" style="margin: 0 !important;">
+        <div class="col m12 s12">
+            <img style="width: 75px;margin-right: 75px;" src="Resources/public/image/home/brujula.png" >
+        </div>
+    </div>
+
+    <div class="row center">
+        <div class="col m12 s12">
+            <p class="center light textLightGray">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
+        </div>
+    </div>           
+</div>
+
+<div class="row">
+    <br>
+    <br>    
+</div>
 
 
 
 <!--HOME FRASE INICIAL-->
 <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-        <div class="container">
-            <br><br>
-            <div class="row right" style="margin: 0 !important;">
-                <div class="col m12 s12">
-                    <img style="width: 75px;margin-right: 75px;" src="Resources/public/image/home/brujula.png" >
-                </div>
-            </div>
-
-            <div class="row center">
-                <div class="col m12 s12">
-                    <p class="center light textLightGray">GUIAMOS A LAS EMPRESAS Y PATRIMONIOS FAMILIARES EN LA TRANSMISIÓN Y SOSTENIBILIDAD DE SU LEGADO</p>
-                </div>
-            </div>           
-
-
+        <div class="row">
+            <br>
+            <br>    
         </div>
     </div>
-    <div><img src="Resources/public/image/home/way.png" alt="way"></div>
+    <div class="parallax"><img src="Resources/public/image/home/way.png" alt="way"></div>
 </div>
 <!--END HOME FRASE INICIAL-->
 
@@ -129,12 +136,12 @@
 
 <div class="anchoTotal alturaSectionHome centrarVerticalSectionHome">
     <div class="row">
-            <h5 class="center">
-                <img style="width: 60px;" src="Resources/public/image/home/fruta.png">
-                <br><br>
-                <div> <a class="notShadow btn-large grisExaudi botonExaudiGris textBoldHomeBoton" href="index.php?page=services">NUESTROS SERVICIOS</a>
-                </div>
-            </h5>
+        <h5 class="center">
+            <img style="width: 60px;" src="Resources/public/image/home/fruta.png">
+            <br><br>
+            <div> <a class="notShadow btn-large grisExaudi botonExaudiGris textBoldHomeBoton" href="index.php?page=services">NUESTROS SERVICIOS</a>
+            </div>
+        </h5>
     </div>
 </div>
 

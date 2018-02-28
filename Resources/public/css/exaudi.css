@@ -87,13 +87,13 @@
 
 .colorTextoBannerMenu{
     color: #666666;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 
 .colorTextoBannerMenuGris{
     color: #ffffff;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .colorIconoBannerMenu{
@@ -106,6 +106,15 @@
 
 .bannerColor{
     background-color: white !important;
+}
+
+
+.menuShowHide{
+
+}
+
+.iconoNavegacionMenu{
+    padding-left:0px !important;
 }
 
 
@@ -175,6 +184,16 @@ nav{
     -webkit-box-shadow: none !important;
     -moz-box-shadow: none !important;
     box-shadow: none !important;
+}
+
+.notLine{
+    border-bottom: none!important;
+    box-shadow: none!important;
+}
+
+.notMargin{
+    margin-left: 50px !important;
+    letter-spacing: 4px;
 }
 
 

@@ -6,7 +6,7 @@
     </div>
     <div class="col s12 m8">
         <br>
-        <h4 class="textBoldHomeGray">NOTICIAS</h4>                
+        <h5 class="textBoldHomeGray">NOTICIAS</h5>                
     </div>
 </div>
 

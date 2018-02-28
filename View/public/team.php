@@ -6,7 +6,7 @@
             </div>
             <div class="col s8 m10">
                 <div class="left">
-                    <h4 class="left textBoldServicesGray">EQUIPO DE TRABAJO</h4>
+                    <h5 class="left textBoldServicesGray">EQUIPO DE TRABAJO</h5>
                 </div>
             </div>
             <div class="col s8 m1">
@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col s8 m12">
                 <div class="icon-block">
-                    <h4 class="center textBold textBoldServicesGray">CONSULTORES</h4>
+                    <h5 class="center textBold textBoldServicesGray">CONSULTORES</h5>
                 </div>
             </div>
         </div>
@@ -118,12 +118,12 @@
             </div>
             <div class="col s8 m6">
                 <div class="icon-block">
-                    <h4 class="center textBoldServicesGray">COLABORADORES</h4>
+                    <h5 class="center textBoldServicesGray">COLABORADORES</h5>
                 </div>
             </div>
             <div class="col s8 m4">
                 <div class="icon-block">
-                    <h4 class="center textBoldServicesGray">STAFF</h4>
+                    <h5 class="center textBoldServicesGray">STAFF</h5>
                 </div>
             </div>
 
@@ -224,8 +224,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 27%"><h4 class="textBoldModelGray">GUILLERMO SALAZAR</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Mananing Director</h4></td>
+                <td style="text-align: left; width: 27%"><h5 class="textBoldModelGray">GUILLERMO SALAZAR</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Mananing Director</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -266,8 +266,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 27%"><h4 class="textBoldModelGray">PABLO AURE FARIÑEZ</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
+                <td style="text-align: left; width: 27%"><h5 class="textBoldModelGray">PABLO AURE FARIÑEZ</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -308,8 +308,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 19%"><h4 class="textBoldModelGray">LISA M. MOREL</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
+                <td style="text-align: left; width: 19%"><h5 class="textBoldModelGray">LISA M. MOREL</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -350,8 +350,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 19%"><h4 class="textBoldModelGray">FERRAN FISAS</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
+                <td style="text-align: left; width: 19%"><h5 class="textBoldModelGray">FERRAN FISAS</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -392,8 +392,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 20%"><h4 class="textBoldModelGray">VANESSA LEAN</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
+                <td style="text-align: left; width: 20%"><h5 class="textBoldModelGray">VANESSA LEAN</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -434,8 +434,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 20%"><h4 class="textBoldModelGray">ALBERT BOSCH</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
+                <td style="text-align: left; width: 20%"><h5 class="textBoldModelGray">ALBERT BOSCH</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Colaborador</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                        <div>
@@ -476,8 +476,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 17%"><h4 class="textBoldModelGray">ELAINE KING</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
+                <td style="text-align: left; width: 17%"><h5 class="textBoldModelGray">ELAINE KING</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Colaborador</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -518,8 +518,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 22%"><h4 class="textBoldModelGray">SANDRA ALONSO</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Regional executive</h4></td>
+                <td style="text-align: left; width: 22%"><h5 class="textBoldModelGray">SANDRA ALONSO</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Regional executive</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>
@@ -560,8 +560,8 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 20%"><h4 class="textBoldModelGray">SISSI GRAESSEL</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Administrative Manager</h4></td>
+                <td style="text-align: left; width: 20%"><h5 class="textBoldModelGray">SISSI GRAESSEL</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Administrative Manager</h5></td>
                 <td><div class="col m8 s8 right-align" >
 
                         <div>

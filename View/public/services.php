@@ -193,7 +193,7 @@
                     </p>
 
                     <div class="col s12 m6" >
-                        <a href="index.php?page=contact" style="color: #FFFFFF"><div class=" btn-large verdeExaudi botonExaudi textLightGreen">Contacto
+                        <a href="index.php?page=contact" style="color: #FFFFFF"><div class=" btn-large verdeExaudi botonExaudi textBoldHomeButton">Contacto
                             </div>
                         </a>
                     </div>    

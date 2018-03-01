@@ -29,6 +29,16 @@
     vertical-align: central;
     line-height: 35px;
 }
+.botonExaudiTeam{    
+    border:2px solid white;
+    width:300px;
+    height:40px;
+    text-align: center;
+    vertical-align: central;
+    line-height: 35px;
+    padding: 0;
+}
+
 
 .botonExaudiGris{    
     border:2px solid gray;

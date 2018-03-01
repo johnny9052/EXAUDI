@@ -70,14 +70,12 @@
                         <br>
                     </p>
 
-                    <div class="col s12 m5" >
-                        <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen">
-                            <a href="index.php?page=contact" style="color: #FFFFFF">BLOG</a>
-                        </div>
-                    </div>    
-                    <div class="col s12 m5">
-                        <img style="width: 30px; margin-left: -40px; margin-top: -2px" src="Resources/public/image/new/iconoBotonBlog.png">
-                    </div>
+                    <div class="col s12 m7 center-block center">
+                        <a href="index.php?page=services" style="color: #FFFFFF">
+                            <div class="notShadow btn-large verdeExaudi botonExaudiTeam textBoldHomeButtonTeam" style="margin-left:-5px; margin-top: -25px">BLOG</div>
+                        </a>
+                        <img style="width: 35px; margin-top: 5px; margin-left: 2px" src="Resources/public/image/new/iconoBotonBlog.png">
+                    </div>   
                 </div>
             </div>
         </div>

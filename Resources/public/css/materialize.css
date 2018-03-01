@@ -4489,7 +4489,7 @@ nav .input-field label.active i {
 
 .textBlack{
     font-family: "AktivGrotesk-Black" !important;
-    color: #808080;
+    color: #666666;
 }
 
 .textBlackVerde{
@@ -4513,23 +4513,23 @@ nav .input-field label.active i {
 .textBoldHomeGray{
     font-family: "AktivGrotesk-Bold" !important;
     letter-spacing: 4px;
-    color: #808080
+    color: #666666
 }
 .textBoldModelGray{
     font-family: "AktivGrotesk-Bold" !important;
-    color: #808080;
+    color: #666666;
     font-size: 16px;
 }
 .textLightModelGray{
     font-family: "AktivGrotesk-Bold" !important;
-    color: #808080;
+    color: #666666;
     font-size: 12px;
 }
 
 .textBoldTeamGray{
     font-family: "AktivGrotesk-Bold" !important;
     letter-spacing: 4px;
-    color: #808080
+    color: #666666
 }
 
 
@@ -4537,13 +4537,13 @@ nav .input-field label.active i {
 .textBoldServicesGray{
     font-family: "AktivGrotesk-Bold" !important;
     letter-spacing: 4px;
-    color: #808080;
+    color: #666666;
 }
 
 .textBoldLeerGray{
     font-family: "AktivGrotesk-Bold" !important;
     letter-spacing: 2px;
-    color: #808080;
+    color: #666666;
     font-size: 10px;
 }
 
@@ -4555,6 +4555,31 @@ nav .input-field label.active i {
 .textLightGreen{
     font-family: "AktivGrotesk-Light" !important;
     
+}
+
+.textLightButton{
+    font-family: "AktivGrotesk-Light" !important;
+    letter-spacing: 6px !important;
+    font-size: 12px !important;
+}
+
+.textBoldHomeButton{
+    font-family: "AktivGrotesk-Bold" !important;
+    letter-spacing: 6px !important;
+    font-size: 12px !important
+}
+
+.textBoldHomeButtonWhite{
+    font-family: "AktivGrotesk-Bold" !important;
+    letter-spacing: 6px !important;
+    font-size: 12px !important
+    color: #666666 !important;
+}
+
+.textBoldHomeButtonTeam{
+    font-family: "AktivGrotesk-Bold" !important;
+    letter-spacing: 6px !important;
+    font-size: 12px !important;
 }
 
 .textLightGreenContact{

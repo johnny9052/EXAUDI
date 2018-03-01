@@ -201,14 +201,13 @@
                         <br>
                     </p>
 
-                    <div class="col s12 m5" >
+                    <div class="col s12 m7 center-block center">
                         <a href="index.php?page=services" style="color: #FFFFFF">
-                            <div class="notShadow btn-large verdeExaudi botonExaudi textLightGreen">NUESTROS SERVICIOS</div>
+                            <div class="notShadow btn-large verdeExaudi botonExaudiTeam textBoldHomeButtonTeam" style="margin-left:-5px; margin-top: -20px">NUESTROS SERVICIOS</div>
                         </a>
+                        <img style="width: 35px; margin-top: 5px; margin-left: 2px" src="Resources/public/image/team/iconoBotonTeam.png">
                     </div>    
-                    <div class="col s12 m5">
-                        <img style="width: 35px; margin-left: -45px; margin-top: -2px" src="Resources/public/image/team/iconoBotonTeam.png">
-                    </div> 
+
                 </div>
             </div>
         </div>
@@ -438,7 +437,7 @@
                 <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
                 <td><div class="col m8 s12 right-align" >
 
-                       <div>
+                        <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
                                 <li class="iconosFooter mdi mdi-email-outline"></li>
                             </a>

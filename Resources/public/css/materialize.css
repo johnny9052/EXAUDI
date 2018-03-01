@@ -4584,7 +4584,7 @@ nav .input-field label.active i {
 
 .textLightGreenContact{
     font-family: "AktivGrotesk-Light" !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 .textMedium{
@@ -4596,28 +4596,29 @@ nav .input-field label.active i {
 
 .textMediumHomeGray{
     font-family: "AktivGrotesk-Medium" !important;
-    color: #80809f;
+    color: #666666;
 }
 
 .textMediumGray{
     font-family: "AktivGrotesk-Medium" !important;
-    color: #80809f;
+    color: #666666;
 }
 
-.textLightGray{
+
+.textLightGray{    
+    color: #666666;
     font-family: "AktivGrotesk-Light" !important;
-    color: #80809f;
 }
 
 .textLightGrayServices{
     font-family: "AktivGrotesk-Light" !important;
-    color: #80809f;
+    color: #666666;
     letter-spacing: 1px;
 }
 
 .textLightGrayTeam{
     font-family: "AktivGrotesk-Light" !important;
-    color: #80809f;
+    color: #666666;
     font-size: 16px !important;
 }
 
@@ -5857,7 +5858,7 @@ button.btn-floating {
 
 .modal.modal-fixed-footer {
     padding: 0;
-    height: 70%;
+    height: 100%;
 }
 
 .modal.modal-fixed-footer .modal-content {

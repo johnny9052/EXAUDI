@@ -77,6 +77,7 @@ function ExecuteAction($action, $obj, $dao) {
 
 
 
+/*(Cadena BASE 64,ruta archivo + nombre  + extension)*/
 function base64_to_jpeg($base64_string, $output_file) {
     $ifp = fopen($output_file, "wb");
     $data = explode(',', $base64_string);

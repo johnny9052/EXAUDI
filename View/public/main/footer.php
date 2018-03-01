@@ -13,14 +13,8 @@
                     <div class="col m8 s12 right-align" >
 
                         <div >
-                            <a class="white-text" href="index.php?page=contact" target="_blank">
-                                <li class="iconosFooter mdi mdi-email-outline"></li>
-                            </a>
-
-
-                            <li class="iconosFooter mdi mdi-phone">
-                                <a class="white-text" href="" target="_blank"></a>
-                            </li>
+                         
+                          
                             <a class="white-text" href="https://www.facebook.com/exaudionline/" target="_blank">
                                 <li class="iconosFooter mdi mdi-facebook">
 
@@ -49,3 +43,4 @@
         </table>
     </div>
 </footer>
+

@@ -10,7 +10,7 @@
 
             <div class="col m10 s12">
                 <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4 class="textBoldHomeGray">CONTACTO</h4>                
+                <h6 class="textBoldHomeGray">CONTACTO</h6>                
             </div>
         </div>
 
@@ -46,17 +46,17 @@
 
             <div class="input-field col s12 m4 textLightGreen" style="padding-right: 30px;">
                 <h6 class="textLightGreenContact">NOMBRE</h6>
-                <input class="white black-text" required id="txtNombre" name="nombre" type="text" value="" autocomplete="off">
+                <input class="white black-text notShadow notLine" required id="txtNombre" name="nombre" type="text" value="" autocomplete="off">
 
-                <h6 class="textLightGreenContact">EMAIL</h6>
-                <input class="white black-text" required id="txtEmail" name="email" type="email" value="" autocomplete="off" >
+                <h6 class="textLightGreenContact labelContacto">EMAIL</h6>
+                <input class="white black-text notShadow notLine" required id="txtEmail" name="email" type="email" value="" autocomplete="off" >
 
-                <h6 class="textLightGreenContact">ORGANIZACION</h6>
-                <input class="white black-text" required id="txtOrganizacion" name="organizacion" type="text" value="" autocomplete="off" >
+                <h6 class="textLightGreenContact labelContacto">ORGANIZACION</h6>
+                <input class="white black-text notShadow notLine" required id="txtOrganizacion" name="organizacion" type="text" value="" autocomplete="off" >
             </div>
 
             <div class="input-field col s12 m4">
-                <h6 class="textLightGreenContact">MENSAJE</h6>
+                <h6 class="textLightGreenContact notShadow notLine">MENSAJE</h6>
                 <textarea id="txtMensaje" required name="mensaje" class="white black-text materialize-textarea" value="" autocomplete="off"></textarea>                                                             
 
 

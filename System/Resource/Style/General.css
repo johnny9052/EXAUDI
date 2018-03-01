@@ -5,6 +5,7 @@
 
 .seleccionable{
     cursor: pointer !important;   
+    pointer-events: auto;    
 }
 
 .verdeExaudi{

@@ -123,7 +123,10 @@ function mostrarNoticia(info) {
     }
     
     if (info[0].video !== "") {
+        $("#urlVideo").fadeIn("slow");
         $("#urlVideo").attr("href", info[0].video)
+    }else{
+        $("#urlVideo").hide();
     }
 
 

@@ -56,8 +56,6 @@ class Cleaner {
         '[' => '', ']' => '', "'" => '', '"' => '', '<' => '', '>' => ''
         , '{' => '', '}' => ''
     ];
-    
-    
     private $replaceDate = [
         '-' => '', '/' => '', " " => '', ":" => ''
     ];
@@ -72,11 +70,23 @@ class Cleaner {
     public function cleanValue($value) {
         return str_replace(array_keys($this->replace), $this->replace, $value);
     }
-    
-    
-    
-     public function cleanValueDate($value) {
+
+    public function cleanValueDate($value) {
         return str_replace(array_keys($this->replaceDate), $this->replace, $value);
+    }
+
+    public function cleanValueFileName($str = '') {
+        $str = strip_tags($str);
+        $str = preg_replace('/[\r\n\t ]+/', ' ', $str);
+        $str = preg_replace('/[\"\*\/\:\<\>\?\'\|]+/', ' ', $str);
+        $str = strtolower($str);
+        $str = html_entity_decode($str, ENT_QUOTES, "utf-8");
+        $str = htmlentities($str, ENT_QUOTES, "utf-8");
+        $str = preg_replace("/(&)([a-z])([a-z]+;)/i", '$2', $str);
+        $str = str_replace(' ', '-', $str);
+        $str = rawurlencode($str);
+        $str = str_replace('%', '-', $str);
+        return $str;
     }
 
 }

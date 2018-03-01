@@ -28,14 +28,7 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col s8 m12">
-                <div class="icon-block">
-                    <h5 class="center textBold textBoldServicesGray">CONSULTORES</h5>
-                </div>
-            </div>
-        </div>
-
+      
 
         <!--   Icon Section   -->
         <div class="row">
@@ -112,25 +105,7 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col s8 m1">
-
-            </div>
-            <div class="col s8 m6">
-                <div class="icon-block">
-                    <h5 class="center textBoldServicesGray">COLABORADORES</h5>
-                </div>
-            </div>
-            <div class="col s8 m4">
-                <div class="icon-block">
-                    <h5 class="center textBoldServicesGray">STAFF</h5>
-                </div>
-            </div>
-
-            <div class="col s8 m1">
-
-            </div>
-        </div>
+      
 
         <div class="row">
             <div class="col s8 m2">
@@ -151,7 +126,7 @@
                     <a class="modal-trigger seleccionable" href="#modalElaine"><img src="Resources/public/image/team/elaine.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>ELAINE KING</label>
 
-                        <h8 class="consultantDesc textLightGray" > Regional Executive</h8>
+                        <h8 class="consultantDesc textLightGray" >Colaboradores</h8>
                     </a>
                 </div>
             </div>
@@ -165,7 +140,7 @@
                     <a class="modal-trigger seleccionable" href="#modalSandra"><img src="Resources/public/image/team/sandra.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>SANDRA ALONSO</label>
 
-                        <h8 class="consultantDesc textLightGray">Colaborador</h8>
+                        <h8 class="consultantDesc textLightGray">Regional executive</h8>
                     </a>
                 </div>
             </div>
@@ -416,7 +391,8 @@
                 <td colspan="3"><div class="caption2"></div></td>
             </tr>
         </table> 
-        <p class="textLightGrayTeam" style="text-align: justify">Experta en gobierno corporativo y planificación patrimonial. Ha acompañado a un número importante de familias en el fortalecimiento de la estructura del patrimonio empresarial y familiar desde el punto de vista legal y fiscal. Es conferencista, miembro activo del Columbia Latin Business Law Association, y esta acreditada con el Certificate in Family Business Advising del Family Firm Institute. 
+        <p class="textLightGrayTeam" style="text-align: justify">
+            Experta en family office, gobernanza y programas de desarrollo para el revelo generacional. Como mentora ha guiado a altos ejecutivos en el desarrollo de sus habilidades de liderazgo tanto en el ambiente familiar, organizacional y fundaciones. Egresada del postgrado Family de Systems del Georgetown Family Center, y acreditada con las certificaciones  ACFBA y ACFWA del Family Firm Institute.    
         </p>
     </div>
     <div class="modal-header" style="float:right">
@@ -458,7 +434,8 @@
                 <td colspan="3"><div class="caption2"></div></td>
             </tr>
         </table> 
-        <p class="textLightGrayTeam" style="text-align: justify">Conferenciante y divulgador de referencia: experto en liderazgo y actitudes clave en gestión de proyectos empresariales, profesionales o personales, que desarrolla con autenticidad y credibilidad por su experiencia empresarial y aventurera. Aventurero extremo: Cruzó la Antártida sin asistencia en solitario, escaló el Everest, participó en 9 Dakars (primer coche eléctrico), y es corredor de ultra maratones. Emprendedor desde los 26 años, en 2004 fundó INVERGROUP, plataforma de gestión de proyectos de energía y medio ambiente. Autor de “El explorador del futuro”, “Vivir para sentirse vivo” , “El valor del viaje” y “Espíritu de aventura: Los 7 retos del Emprendedor. 
+        <p class="textLightGrayTeam" style="text-align: justify">
+            Aventurero, emprendedor y escritor. Su espíritu y determinación lo han llevado a la meta en experiencias altamente retadoras como 9 "Dakars" uno de ellos en un auto 100% eléctrico,  cruzar la Antártida, unos 1.1152 km sin asistencia; realizar las 7 cumbres más alta de los 7 continentes en el "7 Summits". Propietario de Invergroup empresa dedicada a la gestión y promoción de proyectos en el ámbito de energía y medio ambiente. Ha publicado cuatro libros "El explorador del futuro", "Vivir para sentirse vivo", "El valor del viaje" y "Espíritu de aventurero". Experto conferencista en liredazgo, gestión del cambio, gestión de equipos y motivación.
         </p>
     </div>
     <div class="modal-header" style="float:right">
@@ -500,7 +477,8 @@
                 <td colspan="3"><div class="caption2"></div></td>
             </tr>
         </table> 
-        <p class="textLightGrayTeam" style="text-align: justify">Experto en gobierno corporativo, planificación estratégica de la sucesión y patrimonios familiares. Ha asesorado anumerosas familias empresarias en sus protocolos, transición generacional, alineación de la visión de la familia y sus valores para la toma de decisiones y resolución de conflictos. Es autor, de los libros "Empresas Familiares: Herramientas para la Gestión del Amor y el Dinero" y "Manual de la Empresa Familiar", conferencista y educador líder en el campo de la empresa familiar en Latinoamérica. Fellow member del Family Firm Institute con sede en Boston, Estados Unidos. En 2015 fue reconocido con el International Achievement Award del Family Firm Institute (Boston). 
+        <p class="textLightGrayTeam" style="text-align: justify">
+            Experta en finanzas familiares, planeación sucesoral y gobierno familiar.  Como asesora a orientado a familias empresarias en educación financiera, planeación patrimonial, impacto social y gobierno familiar. Con experiencia en mediación y destacada Conferencista. Es autora de varios libros dentro de los que se encuentran "Parejas felices, cuentas en orden", y "El Secreto de las parejas felices y el dinero".  Egresada del Bowen Center for the Study of the Family y esta acreditada con el Certificate in Family Business Advising del Family Firm Institute.
         </p>
     </div>
     <div class="modal-header" style="float:right">
@@ -542,7 +520,8 @@
                 <td colspan="3"><div class="caption2"></div></td>
             </tr>
         </table> 
-        <p class="textLightGrayTeam" style="text-align: justify">Sandra es abogada especializada en relacionamiento y negociación. Con amplio conocimiento y trayectoria en negociaciones, relacionamiento con asociaciones, líderes locales y empresarios. Es la responsable de fortalecer las relaciones con grupos de interés en el área de Houston Texas para Exaudi Family Business Consulting. Capacitadora en mediación, técnicas de negociación y comunicación asertiva. 
+        <p class="textLightGrayTeam" style="text-align: justify">
+            Relacionamiento y negociación. Con amplio conocimiento y trayectoria en negociaciones, relacionamiento con asociaciones, líderes locales y empresarios. Es la responsable de fortalecer las relaciones con grupos de interés en el área de Houston Texas para Exaudi Family Business Consulting. Capacitadora en mediación, técnicas de negociación y comunicación asertiva. 
         </p>
     </div>
     <div class="modal-header" style="float:right">

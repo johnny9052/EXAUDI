@@ -26,8 +26,8 @@ if ($urlImage != null && $urlImage != "") {
     $cleaner = new Cleaner();
     $route = '../../Resource/Images/News/';
     $routeDB = 'System/Resource/Images/News/';
-    $filePath = $route . $name . $cleaner->cleanValueDate(date('Y-m-d H:i:s')) . '.jpg';
-    $filePathDB = $routeDB . $name . $cleaner->cleanValueDate(date('Y-m-d H:i:s')) . '.jpg';
+    $filePath = $route . $cleaner->cleanValueFileName($name) . $cleaner->cleanValueDate(date('Y-m-d H:i:s')) . '.jpg';
+    $filePathDB = $routeDB . $cleaner->cleanValueFileName($name) . $cleaner->cleanValueDate(date('Y-m-d H:i:s')) . '.jpg';
 
     base64_to_jpeg($urlImage, $filePath);
 }

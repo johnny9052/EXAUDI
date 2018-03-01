@@ -1,37 +1,37 @@
 <div class="container">
     <div class="section">
         <div class="row">
-            <div class="col s12 m1 ">
+            <div class="col s8 m1 ">
 
             </div>
-            <div class="col s12 m10">
+            <div class="col s8 m10">
                 <div class="left">
-                    <h4 class="left textBoldServicesGray">EQUIPO DE TRABAJO</h4>
+                    <h6 class="left textBoldServicesGray">EQUIPO DE TRABAJO</h6>
                 </div>
             </div>
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
-            <div class="col s12 m10">
+            <div class="col s8 m10">
                 <div class="left">
                     <p class="consultantDesc textLightGrayTeam">Somos un grupo de asesores expertos en guiar a las familias empresarias en la preservación de su legado y su patrimonio</p>
                 </div>
             </div>
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col s12 m12">
+            <div class="col s8 m12">
                 <div class="icon-block">
-                    <h4 class="center textBold textBoldServicesGray">CONSULTORES</h4>
+                    <h5 class="center textBold textBoldServicesGray">CONSULTORES</h5>
                 </div>
             </div>
         </div>
@@ -39,10 +39,10 @@
 
         <!--   Icon Section   -->
         <div class="row">
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalGuillermo"><img src="Resources/public/image/team/guillermo.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label class="seleccionable">GUILLERMO SALAZAR</label>
@@ -52,7 +52,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalPablo"><img src="Resources/public/image/team/pablo.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>PABLO AURE</label>
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalLisa"><img src="Resources/public/image/team/lisa.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>LISA MOREL</label>
@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalFerran"><img src="Resources/public/image/team/ferran.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>FERRAN FISAS</label>
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalVanessa"><img src="Resources/public/image/team/vanessa.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>VANESSA LEAN</label>
@@ -92,51 +92,51 @@
                 </div>
             </div>
 
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
-            <div class="col s12 m10">
+            <div class="col s8 m10">
                 <div class="left">
                     <p class="consultantDesc textLightGrayTeam">Como consultores nos apoyamos en profesionales de alto perfil como complemento perfecto en la generación de valor para nuestros
                         clientes y relacionados.</p>
                 </div>
             </div>
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
-            <div class="col s12 m6">
+            <div class="col s8 m6">
                 <div class="icon-block">
-                    <h4 class="center textBoldServicesGray">COLABORADORES</h4>
+                    <h5 class="center textBoldServicesGray">COLABORADORES</h5>
                 </div>
             </div>
-            <div class="col s12 m4">
+            <div class="col s8 m4">
                 <div class="icon-block">
-                    <h4 class="center textBoldServicesGray">STAFF</h4>
+                    <h5 class="center textBoldServicesGray">STAFF</h5>
                 </div>
             </div>
 
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col s12 m2">
+            <div class="col s8 m2">
 
             </div>
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalAlbert"><img src="Resources/public/image/team/bosch.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>ALBERT BOSCH</label>
@@ -146,7 +146,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalElaine"><img src="Resources/public/image/team/elaine.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>ELAINE KING</label>
@@ -156,11 +156,11 @@
                 </div>
             </div>
 
-            <div class="col s12 m1">
+            <div class="col s8 m1">
             </div>
 
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam" >
                     <a class="modal-trigger seleccionable" href="#modalSandra"><img src="Resources/public/image/team/sandra.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>SANDRA ALONSO</label>
@@ -170,7 +170,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m2">
+            <div class="col s8 m2">
                 <div class="icon-block titleTeam">
                     <a class="modal-trigger seleccionable" href="#modalSissi"><img src="Resources/public/image/team/sissi.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         <label>SISSI GRAESSEL</label>
@@ -189,13 +189,13 @@
 
         <div class="row">
 
-            <div class="col s12 m1">
+            <div class="col s8 m1">
 
             </div>
-            <div class="col s12 m7">
+            <div class="col s8 m7">
                 <div style="padding-bottom:50px;" class="left textLightGreen">
                     <br>
-                    <p class="verdeExaudi textLightGreen">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
+                    <p class="verdeExaudi textLightGreen justifyText">NUESTROS SERVICIOS ESTÁN DISEÑADOS PARA ATENDER CADA UNA DE LAS DIMENSIONES DENTRO DE LA COMPLEJIDAD QUE REPRESENTA LA FAMILIA EMPRESARIAL.
                         <br> 
                         ACOMPAÑADOS DE UNA VISIÓN HOLÍSTICA QUE LOS INTEGRA Y UNA METODOLOGÍA EFECTIVA
                         <br>
@@ -207,6 +207,9 @@
                         </a>
                         <img style="width: 35px; margin-top: 5px; margin-left: 2px" src="Resources/public/image/team/iconoBotonTeam.png">
                     </div>    
+                    <div class="col offset-s6 s6 m5">
+                        <img style="width: 35px; margin-left: -45px; margin-top: -2px" src="Resources/public/image/team/iconoBotonTeam.png">
+                    </div> 
 
                 </div>
             </div>
@@ -218,14 +221,14 @@
 <div id="modalGuillermo" class="modal modal-fixed-footer">
     <div class="modal-content" >
         <div class="card">
-            <div class="img-team"><img style="width:700px !important; height: 450px !important; padding-bottom: 0px !important; display: block !important;" src="Resources/public/image/team/guillermoFull.jpg" alt="Unsplashed background img 1"></div>
+            <div class="img-team"><img class="photoResponse" src="Resources/public/image/team/guillermoFull.jpg" alt="Unsplashed background img 1"></div>
             <div class="caption"></div>
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 27%"><h4 class="textBoldModelGray">GUILLERMO SALAZAR</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Mananing Director</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 27%"><h5 class="textBoldModelGray">GUILLERMO SALAZAR</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Mananing Director</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -265,9 +268,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 27%"><h4 class="textBoldModelGray">PABLO AURE FARIÑEZ</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 27%"><h5 class="textBoldModelGray">PABLO AURE FARIÑEZ</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -307,9 +310,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 19%"><h4 class="textBoldModelGray">LISA M. MOREL</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 19%"><h5 class="textBoldModelGray">LISA M. MOREL</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -349,9 +352,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 19%"><h4 class="textBoldModelGray">FERRAN FISAS</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 19%"><h5 class="textBoldModelGray">FERRAN FISAS</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -391,9 +394,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 20%"><h4 class="textBoldModelGray">VANESSA LEAN</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Consultant</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 20%"><h5 class="textBoldModelGray">VANESSA LEAN</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Consultant</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -433,9 +436,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 20%"><h4 class="textBoldModelGray">ALBERT BOSCH</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 20%"><h5 class="textBoldModelGray">ALBERT BOSCH</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Colaborador</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -475,9 +478,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 17%"><h4 class="textBoldModelGray">ELAINE KING</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Colaborador</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 17%"><h5 class="textBoldModelGray">ELAINE KING</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Colaborador</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -517,9 +520,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 22%"><h4 class="textBoldModelGray">SANDRA ALONSO</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Regional executive</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 22%"><h5 class="textBoldModelGray">SANDRA ALONSO</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Regional executive</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">
@@ -559,9 +562,9 @@
         </div>
         <table>
             <tr>
-                <td style="text-align: left; width: 20%"><h4 class="textBoldModelGray">SISSI GRAESSEL</h4></td>
-                <td style="text-align: left"><h4 class="textLightModelGray">Administrative Manager</h4></td>
-                <td><div class="col m8 s12 right-align" >
+                <td style="text-align: left; width: 20%"><h5 class="textBoldModelGray">SISSI GRAESSEL</h5></td>
+                <td style="text-align: left"><h5 class="textLightModelGray">Administrative Manager</h5></td>
+                <td><div class="col m8 s8 right-align" >
 
                         <div>
                             <a class="green-textFooter" href="index.php?page=contact" target="_blank">

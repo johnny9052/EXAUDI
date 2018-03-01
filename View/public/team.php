@@ -207,10 +207,6 @@
                         </a>
                         <img style="width: 35px; margin-top: 5px; margin-left: 2px" src="Resources/public/image/team/iconoBotonTeam.png">
                     </div>    
-                    <div class="col offset-s6 s6 m5">
-                        <img style="width: 35px; margin-left: -45px; margin-top: -2px" src="Resources/public/image/team/iconoBotonTeam.png">
-                    </div> 
-
                 </div>
             </div>
         </div>

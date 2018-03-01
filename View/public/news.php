@@ -6,7 +6,7 @@
     </div>
     <div class="col s12 m8">
         <br>
-        <h5 class="textBoldHomeGray">NOTICIAS</h5>                
+        <h6 class="textBoldHomeGray">NOTICIAS</h6>                
     </div>
 </div>
 
@@ -37,6 +37,9 @@
         </tr>
         <tr>
             <td>
+                <div class="col s2 l2 m2 container">
+                    
+                </div>
                 <div class="section" id="lstNoticias">
 
                 </div>
@@ -90,27 +93,36 @@
 
 
 
-<div id="modalNoticia" class="modal modal-fixed-footer">
-    <div id="FormContainer">
-        <div class="modal-content">
-            <input id="txtId" name="id" class="form-control identificator"  type="hidden" value="">
-            <div><img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1"></div>
+<div id="modalNoticia" class="modal modal-fixed-footer modalFullScreen">
+    <div class="row">
+        <div class="col s12 m12">
 
-            <div class="seleccionable">                
-                <button class="right botonInvisible">
-                    <img src="Resources/public/image/pdf.png" onclick="generarPdf();"/>                
-                </button>
+            <div id="FormContainer">
+                <div class="modal-content">
+                    <input id="txtId" name="id" class="form-control identificator"  type="hidden" value="">
+                    <div><img style="width:200px !important; height: 30px !important;" src="Resources/public/image/logo.png" alt="Unsplashed background img 1"></div>
+
+                    <div class="seleccionable">                
+                        <button class="right botonInvisible">
+                            <img src="Resources/public/image/download.png" onclick="generarPdf();"/>                
+                        </button>
+                    </div>
+
+                    <br>
+
+                    <div class="center">
+                        <img  style="width:75% !important; height: 50% !important;" id="imgNoticia" >
+                    </div>
+
+                    <div><h6 class="textBold" id="lblTitulo"></h6><br></div>
+                    <div><p style="text-align: justify !important; " id="lblDescripcion"></p></div>
+                    <div><a style="text-align: justify !important; " id="urlVideo" target="_blank">Ver video</a></div>
+                </div>
+                <div class="modal-header" style="float:right">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
+                </div>
             </div>
 
-            
-
-            <div><img style="width:700px !important; height: 400px !important;" id="imgNoticia" ></div>
-            <div><h6 class="textBold" id="lblTitulo"></h6><br></div>
-            <div><p style="text-align: justify !important; " id="lblDescripcion"></p></div>
-            <div><a style="text-align: justify !important; " id="urlVideo" target="_blank">Ver video</a></div>
-        </div>
-        <div class="modal-header" style="float:right">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">X</a>
         </div>
     </div>
 </div>

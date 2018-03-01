@@ -4559,7 +4559,7 @@ nav .input-field label.active i {
 
 .textLightGreenContact{
     font-family: "AktivGrotesk-Light" !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 .textMedium{
@@ -4579,9 +4579,10 @@ nav .input-field label.active i {
     color: #666666;
 }
 
-.textLightGray{
-    font-family: "AktivGrotesk-Light" !important;
+
+.textLightGray{    
     color: #666666;
+    font-family: "AktivGrotesk-Light" !important;
 }
 
 .textLightGrayServices{
@@ -5832,7 +5833,7 @@ button.btn-floating {
 
 .modal.modal-fixed-footer {
     padding: 0;
-    height: 70%;
+    height: 100%;
 }
 
 .modal.modal-fixed-footer .modal-content {

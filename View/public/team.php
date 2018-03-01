@@ -6,7 +6,7 @@
             </div>
             <div class="col s8 m10">
                 <div class="left">
-                    <h5 class="left textBoldServicesGray">EQUIPO DE TRABAJO</h5>
+                    <h6 class="left textBoldServicesGray">EQUIPO DE TRABAJO</h6>
                 </div>
             </div>
             <div class="col s8 m1">
